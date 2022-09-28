@@ -1,0 +1,1355 @@
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 1 
+###############################################################
+
+{'mean': 0.0041125621646642685, 'median': 0.003800448030233383, 'std': 0.0008034228558517967}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    0.04/   1.86 GFLOPS | Progress: (12/800) | 16.47 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.03/   1.71 GFLOPS | Progress: (36/800) | 30.80 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:    0.20/   7.11 GFLOPS | Progress: (36/800) | 11.61 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:    5.92/   7.33 GFLOPS | Progress: (96/800) | 113.23 s
+[Task  4/ 6]  Current/Best:    0.24/   7.33 GFLOPS | Progress: (108/800) | 118.90 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    0.09/   5.27 GFLOPS | Progress: (24/800) | 8.35 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:    3.72/   5.33 GFLOPS | Progress: (60/800) | 17.25 s Done.
+Exported library with batch size 1
+optimized: {'mean': 0.004042964428663254, 'median': 0.003740075044333935, 'std': 0.0008999735574955275}
+unoptimized: {'mean': 0.0041125621646642685, 'median': 0.003800448030233383, 'std': 0.0008034228558517967}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 2 
+###############################################################
+
+{'mean': 0.02276428509503603, 'median': 0.022462173365056515, 'std': 0.0008130691033076484}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    0.05/   3.32 GFLOPS | Progress: (24/800) | 26.95 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.05/   3.31 GFLOPS | Progress: (96/800) | 111.75 s
+[Task  2/ 6]  Current/Best:    0.04/   3.46 GFLOPS | Progress: (192/800) | 155.25 s
+[Task  2/ 6]  Current/Best:    0.06/   3.46 GFLOPS | Progress: (216/800) | 161.55 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:    0.45/   8.34 GFLOPS | Progress: (72/800) | 70.12 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:    0.46/  11.61 GFLOPS | Progress: (96/800) | 106.86 s
+[Task  4/ 6]  Current/Best:    0.43/  12.09 GFLOPS | Progress: (192/800) | 140.96 s
+[Task  4/ 6]  Current/Best:    0.33/  12.73 GFLOPS | Progress: (288/800) | 166.52 s
+[Task  4/ 6]  Current/Best:    0.39/  12.73 GFLOPS | Progress: (384/800) | 192.23 s
+[Task  4/ 6]  Current/Best:    0.46/  12.73 GFLOPS | Progress: (480/800) | 221.28 s
+[Task  4/ 6]  Current/Best:    0.44/  12.73 GFLOPS | Progress: (576/800) | 247.40 s
+[Task  4/ 6]  Current/Best:    0.33/  12.73 GFLOPS | Progress: (648/800) | 266.09 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    0.15/   7.85 GFLOPS | Progress: (48/800) | 14.47 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:    0.26/  10.09 GFLOPS | Progress: (96/800) | 96.97 s
+[Task  6/ 6]  Current/Best:    0.19/  10.72 GFLOPS | Progress: (192/800) | 124.70 s
+[Task  6/ 6]  Current/Best:    0.19/  10.72 GFLOPS | Progress: (288/800) | 150.15 s
+[Task  6/ 6]  Current/Best:    0.19/  10.72 GFLOPS | Progress: (360/800) | 169.09 s Done.
+Exported library with batch size 2
+optimized: {'mean': 0.024658427573740482, 'median': 0.022883713245391846, 'std': 0.005214671129668421}
+unoptimized: {'mean': 0.02276428509503603, 'median': 0.022462173365056515, 'std': 0.0008130691033076484}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 4 
+###############################################################
+
+{'mean': 0.02468771766871214, 'median': 0.024142558686435223, 'std': 0.001563998516581187}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    0.15/   5.86 GFLOPS | Progress: (36/800) | 42.92 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.12/   5.82 GFLOPS | Progress: (96/800) | 121.09 s
+[Task  2/ 6]  Current/Best:    0.12/   6.65 GFLOPS | Progress: (192/800) | 167.19 s
+[Task  2/ 6]  Current/Best:    0.10/   6.65 GFLOPS | Progress: (288/800) | 209.91 s
+[Task  2/ 6]  Current/Best:    0.12/   6.65 GFLOPS | Progress: (384/800) | 242.66 s
+[Task  2/ 6]  Current/Best:    0.07/   6.65 GFLOPS | Progress: (480/800) | 268.27 s
+[Task  2/ 6]  Current/Best:    0.13/   6.65 GFLOPS | Progress: (576/800) | 294.31 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:    0.71/   8.77 GFLOPS | Progress: (96/800) | 96.80 s
+[Task  3/ 6]  Current/Best:    0.99/   8.77 GFLOPS | Progress: (108/800) | 99.86 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:    0.83/  17.76 GFLOPS | Progress: (96/800) | 105.02 s
+[Task  4/ 6]  Current/Best:    0.64/  18.87 GFLOPS | Progress: (192/800) | 138.17 s
+[Task  4/ 6]  Current/Best:   10.17/  18.87 GFLOPS | Progress: (288/800) | 170.31 s
+[Task  4/ 6]  Current/Best:    0.91/  18.87 GFLOPS | Progress: (384/800) | 199.17 s
+[Task  4/ 6]  Current/Best:    0.88/  18.87 GFLOPS | Progress: (480/800) | 226.74 s
+[Task  4/ 6]  Current/Best:    1.23/  18.87 GFLOPS | Progress: (576/800) | 256.15 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    0.39/  10.63 GFLOPS | Progress: (72/800) | 84.04 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:    0.51/  15.22 GFLOPS | Progress: (96/800) | 91.89 s
+[Task  6/ 6]  Current/Best:    0.49/  15.31 GFLOPS | Progress: (192/800) | 123.90 s
+[Task  6/ 6]  Current/Best:    5.01/  15.31 GFLOPS | Progress: (288/800) | 152.94 s
+[Task  6/ 6]  Current/Best:    0.50/  15.31 GFLOPS | Progress: (384/800) | 180.61 s
+[Task  6/ 6]  Current/Best:    0.36/  15.31 GFLOPS | Progress: (480/800) | 211.15 s
+[Task  6/ 6]  Current/Best:    0.37/  15.31 GFLOPS | Progress: (576/800) | 238.87 s Done.
+Exported library with batch size 4
+optimized: {'mean': 0.02577054314315319, 'median': 0.023265439085662365, 'std': 0.007632636647069768}
+unoptimized: {'mean': 0.02468771766871214, 'median': 0.024142558686435223, 'std': 0.001563998516581187}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 8 
+###############################################################
+
+{'mean': 0.03191895317286253, 'median': 0.030426750890910625, 'std': 0.00327890548484421}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    0.30/   5.53 GFLOPS | Progress: (48/800) | 49.71 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.19/  10.22 GFLOPS | Progress: (96/800) | 113.00 s
+[Task  2/ 6]  Current/Best:    0.17/  10.27 GFLOPS | Progress: (192/800) | 160.97 s
+[Task  2/ 6]  Current/Best:    0.14/  10.27 GFLOPS | Progress: (288/800) | 204.07 s
+[Task  2/ 6]  Current/Best:    0.20/  10.27 GFLOPS | Progress: (384/800) | 235.55 s
+[Task  2/ 6]  Current/Best:    0.14/  10.27 GFLOPS | Progress: (480/800) | 268.48 s
+[Task  2/ 6]  Current/Best:    0.19/  10.27 GFLOPS | Progress: (576/800) | 296.58 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:    1.42/   6.10 GFLOPS | Progress: (96/800) | 100.27 s
+[Task  3/ 6]  Current/Best:    1.54/   8.02 GFLOPS | Progress: (144/800) | 115.67 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:    2.33/  22.80 GFLOPS | Progress: (96/800) | 102.77 s
+[Task  4/ 6]  Current/Best:    1.81/  31.59 GFLOPS | Progress: (192/800) | 150.67 s
+[Task  4/ 6]  Current/Best:    2.45/  31.59 GFLOPS | Progress: (288/800) | 190.31 s
+[Task  4/ 6]  Current/Best:    1.75/  31.59 GFLOPS | Progress: (384/800) | 220.21 s
+[Task  4/ 6]  Current/Best:    2.43/  31.59 GFLOPS | Progress: (480/800) | 250.97 s
+[Task  4/ 6]  Current/Best:    1.59/  31.59 GFLOPS | Progress: (576/800) | 281.97 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    0.96/   7.00 GFLOPS | Progress: (96/800) | 94.04 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:    0.71/  22.34 GFLOPS | Progress: (96/800) | 98.38 s
+[Task  6/ 6]  Current/Best:    0.66/  23.44 GFLOPS | Progress: (192/800) | 132.44 s
+[Task  6/ 6]  Current/Best:    0.74/  23.44 GFLOPS | Progress: (288/800) | 164.55 s
+[Task  6/ 6]  Current/Best:    0.75/  23.44 GFLOPS | Progress: (384/800) | 193.70 s
+[Task  6/ 6]  Current/Best:    0.71/  23.44 GFLOPS | Progress: (480/800) | 221.93 s
+[Task  6/ 6]  Current/Best:    0.41/  23.44 GFLOPS | Progress: (576/800) | 251.43 s Done.
+Exported library with batch size 8
+optimized: {'mean': 0.02494588028639555, 'median': 0.022957706823945045, 'std': 0.005909609046511198}
+unoptimized: {'mean': 0.03191895317286253, 'median': 0.030426750890910625, 'std': 0.00327890548484421}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 16 
+###############################################################
+
+{'mean': 0.04557732492685318, 'median': 0.044796126894652843, 'std': 0.0028023278665304636}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    0.57/   4.64 GFLOPS | Progress: (60/800) | 63.85 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.37/  10.16 GFLOPS | Progress: (96/800) | 112.71 s
+[Task  2/ 6]  Current/Best:    0.47/  11.72 GFLOPS | Progress: (192/800) | 165.84 s
+[Task  2/ 6]  Current/Best:    0.49/  12.24 GFLOPS | Progress: (288/800) | 204.41 s
+[Task  2/ 6]  Current/Best:    0.27/  12.24 GFLOPS | Progress: (384/800) | 235.95 s
+[Task  2/ 6]  Current/Best:    0.34/  12.24 GFLOPS | Progress: (480/800) | 265.83 s
+[Task  2/ 6]  Current/Best:    0.35/  12.24 GFLOPS | Progress: (576/800) | 294.47 s
+[Task  2/ 6]  Current/Best:    0.30/  12.24 GFLOPS | Progress: (672/800) | 325.21 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:    2.46/  10.29 GFLOPS | Progress: (96/800) | 106.73 s
+[Task  3/ 6]  Current/Best:    1.39/  10.29 GFLOPS | Progress: (180/800) | 131.65 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:    3.22/  31.33 GFLOPS | Progress: (96/800) | 101.45 s
+[Task  4/ 6]  Current/Best:   28.89/  34.28 GFLOPS | Progress: (192/800) | 150.48 s
+[Task  4/ 6]  Current/Best:    0.61/  34.41 GFLOPS | Progress: (288/800) | 189.31 s
+[Task  4/ 6]  Current/Best:    3.40/  38.80 GFLOPS | Progress: (384/800) | 226.29 s
+[Task  4/ 6]  Current/Best:    3.39/  38.80 GFLOPS | Progress: (480/800) | 261.93 s
+[Task  4/ 6]  Current/Best:    4.88/  38.80 GFLOPS | Progress: (576/800) | 295.10 s
+[Task  4/ 6]  Current/Best:    2.32/  38.80 GFLOPS | Progress: (672/800) | 331.90 s
+[Task  4/ 6]  Current/Best:    4.32/  38.80 GFLOPS | Progress: (768/800) | 364.26 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    1.40/   9.11 GFLOPS | Progress: (96/800) | 103.92 s
+[Task  5/ 6]  Current/Best:    1.49/   9.11 GFLOPS | Progress: (120/800) | 109.95 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:    1.44/  28.07 GFLOPS | Progress: (96/800) | 103.12 s
+[Task  6/ 6]  Current/Best:    1.74/  29.92 GFLOPS | Progress: (192/800) | 149.90 s
+[Task  6/ 6]  Current/Best:   13.68/  29.92 GFLOPS | Progress: (288/800) | 190.61 s
+[Task  6/ 6]  Current/Best:    1.62/  29.92 GFLOPS | Progress: (384/800) | 221.56 s
+[Task  6/ 6]  Current/Best:    0.96/  29.92 GFLOPS | Progress: (480/800) | 251.12 s
+[Task  6/ 6]  Current/Best:    3.37/  29.92 GFLOPS | Progress: (576/800) | 280.42 s Done.
+Exported library with batch size 16
+optimized: {'mean': 0.028478531166911125, 'median': 0.0264378497377038, 'std': 0.007488614884527768}
+unoptimized: {'mean': 0.04557732492685318, 'median': 0.044796126894652843, 'std': 0.0028023278665304636}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 32 
+###############################################################
+
+{'mean': 0.04638134501874447, 'median': 0.0463088508695364, 'std': 0.0027395630076054653}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    0.47/   4.89 GFLOPS | Progress: (72/800) | 142.29 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.69/  13.91 GFLOPS | Progress: (96/800) | 115.88 s
+[Task  2/ 6]  Current/Best:    0.65/  15.43 GFLOPS | Progress: (192/800) | 164.66 s
+[Task  2/ 6]  Current/Best:    0.77/  15.81 GFLOPS | Progress: (288/800) | 196.62 s
+[Task  2/ 6]  Current/Best:    0.69/  16.53 GFLOPS | Progress: (384/800) | 230.50 s
+[Task  2/ 6]  Current/Best:    1.03/  16.53 GFLOPS | Progress: (480/800) | 259.12 s
+[Task  2/ 6]  Current/Best:    0.72/  16.53 GFLOPS | Progress: (576/800) | 288.87 s
+[Task  2/ 6]  Current/Best:    0.70/  16.53 GFLOPS | Progress: (672/800) | 318.60 s
+[Task  2/ 6]  Current/Best:    0.67/  16.53 GFLOPS | Progress: (768/800) | 349.26 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:    5.47/   9.04 GFLOPS | Progress: (96/800) | 109.68 s
+[Task  3/ 6]  Current/Best:    2.74/   9.26 GFLOPS | Progress: (192/800) | 138.62 s
+[Task  3/ 6]  Current/Best:    1.92/   9.26 GFLOPS | Progress: (216/800) | 145.71 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:    4.93/   9.80 GFLOPS | Progress: (96/800) | 107.28 s
+[Task  4/ 6]  Current/Best:    7.80/  28.73 GFLOPS | Progress: (192/800) | 169.76 s
+[Task  4/ 6]  Current/Best:    7.62/  35.14 GFLOPS | Progress: (288/800) | 218.95 s
+[Task  4/ 6]  Current/Best:    5.27/  37.66 GFLOPS | Progress: (384/800) | 266.44 s
+[Task  4/ 6]  Current/Best:    2.74/  37.84 GFLOPS | Progress: (480/800) | 302.64 s
+[Task  4/ 6]  Current/Best:    3.34/  37.84 GFLOPS | Progress: (576/800) | 337.63 s
+[Task  4/ 6]  Current/Best:    4.60/  37.84 GFLOPS | Progress: (672/800) | 371.08 s
+[Task  4/ 6]  Current/Best:    0.74/  37.84 GFLOPS | Progress: (768/800) | 405.84 s
+[Task  4/ 6]  Current/Best:   24.23/  37.84 GFLOPS | Progress: (800/800) | 427.96 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    3.10/   6.21 GFLOPS | Progress: (96/800) | 107.51 s
+[Task  5/ 6]  Current/Best:    2.45/   6.21 GFLOPS | Progress: (144/800) | 123.03 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:    4.02/  28.71 GFLOPS | Progress: (96/800) | 111.22 s
+[Task  6/ 6]  Current/Best:    3.98/  32.18 GFLOPS | Progress: (192/800) | 165.84 s
+[Task  6/ 6]  Current/Best:    2.45/  35.84 GFLOPS | Progress: (288/800) | 204.55 s
+[Task  6/ 6]  Current/Best:    2.15/  35.84 GFLOPS | Progress: (384/800) | 246.86 s
+[Task  6/ 6]  Current/Best:    3.14/  37.30 GFLOPS | Progress: (480/800) | 285.37 s
+[Task  6/ 6]  Current/Best:    2.94/  40.43 GFLOPS | Progress: (576/800) | 320.63 s
+[Task  6/ 6]  Current/Best:    4.00/  40.43 GFLOPS | Progress: (672/800) | 351.10 s
+[Task  6/ 6]  Current/Best:    2.95/  40.43 GFLOPS | Progress: (768/800) | 387.38 s
+[Task  6/ 6]  Current/Best:    3.51/  40.43 GFLOPS | Progress: (800/800) | 404.06 s Done.
+Exported library with batch size 32
+optimized: {'mean': 0.033634137362241745, 'median': 0.03136973828077316, 'std': 0.007073643551933915}
+unoptimized: {'mean': 0.04638134501874447, 'median': 0.0463088508695364, 'std': 0.0027395630076054653}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 60 
+###############################################################
+
+{'mean': 0.04070765804499388, 'median': 0.04087085835635662, 'std': 0.0015735450652864592}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    2.00/   4.49 GFLOPS | Progress: (96/800) | 172.24 s
+[Task  1/ 6]  Current/Best:    0.87/   4.49 GFLOPS | Progress: (144/800) | 188.25 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.89/  13.68 GFLOPS | Progress: (96/800) | 101.36 s
+[Task  2/ 6]  Current/Best:    0.97/  18.15 GFLOPS | Progress: (192/800) | 159.87 s
+[Task  2/ 6]  Current/Best:    0.64/  18.38 GFLOPS | Progress: (288/800) | 215.34 s
+[Task  2/ 6]  Current/Best:   12.35/  18.50 GFLOPS | Progress: (384/800) | 269.63 s
+[Task  2/ 6]  Current/Best:    0.45/  18.50 GFLOPS | Progress: (480/800) | 317.74 s
+[Task  2/ 6]  Current/Best:    1.19/  18.50 GFLOPS | Progress: (576/800) | 350.38 s
+[Task  2/ 6]  Current/Best:    1.52/  18.50 GFLOPS | Progress: (672/800) | 384.73 s
+[Task  2/ 6]  Current/Best:    3.55/  20.89 GFLOPS | Progress: (768/800) | 419.66 s
+[Task  2/ 6]  Current/Best:   14.74/  20.96 GFLOPS | Progress: (800/800) | 438.11 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:    4.50/  18.35 GFLOPS | Progress: (96/800) | 108.36 s
+[Task  3/ 6]  Current/Best:    3.70/  18.79 GFLOPS | Progress: (192/800) | 139.00 s
+[Task  3/ 6]  Current/Best:   12.10/  18.79 GFLOPS | Progress: (288/800) | 167.94 s
+[Task  3/ 6]  Current/Best:   10.29/  18.79 GFLOPS | Progress: (384/800) | 195.19 s
+[Task  3/ 6]  Current/Best:    7.11/  18.79 GFLOPS | Progress: (432/800) | 213.94 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:   11.03/  36.88 GFLOPS | Progress: (96/800) | 111.86 s
+[Task  4/ 6]  Current/Best:    5.31/  40.29 GFLOPS | Progress: (192/800) | 187.39 s
+[Task  4/ 6]  Current/Best:    9.33/  41.43 GFLOPS | Progress: (288/800) | 273.36 s
+[Task  4/ 6]  Current/Best:   12.18/  41.48 GFLOPS | Progress: (384/800) | 350.26 s
+[Task  4/ 6]  Current/Best:   10.92/  41.67 GFLOPS | Progress: (480/800) | 420.68 s
+[Task  4/ 6]  Current/Best:    3.87/  41.67 GFLOPS | Progress: (576/800) | 479.05 s
+[Task  4/ 6]  Current/Best:   10.07/  41.67 GFLOPS | Progress: (672/800) | 532.59 s
+[Task  4/ 6]  Current/Best:   11.08/  41.67 GFLOPS | Progress: (768/800) | 597.05 s
+[Task  4/ 6]  Current/Best:   32.59/  41.67 GFLOPS | Progress: (800/800) | 629.01 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    3.46/   9.13 GFLOPS | Progress: (96/800) | 105.12 s
+[Task  5/ 6]  Current/Best:    3.70/   9.13 GFLOPS | Progress: (192/800) | 136.12 s
+[Task  5/ 6]  Current/Best:    1.88/   9.13 GFLOPS | Progress: (288/800) | 161.72 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:    4.57/  32.51 GFLOPS | Progress: (96/800) | 103.82 s
+[Task  6/ 6]  Current/Best:    5.98/  44.56 GFLOPS | Progress: (192/800) | 177.49 s
+[Task  6/ 6]  Current/Best:    4.78/  45.26 GFLOPS | Progress: (288/800) | 232.27 s
+[Task  6/ 6]  Current/Best:    4.83/  45.26 GFLOPS | Progress: (384/800) | 276.15 s
+[Task  6/ 6]  Current/Best:    6.19/  45.26 GFLOPS | Progress: (480/800) | 321.35 s
+[Task  6/ 6]  Current/Best:    3.50/  46.51 GFLOPS | Progress: (576/800) | 364.60 s
+[Task  6/ 6]  Current/Best:    4.41/  47.43 GFLOPS | Progress: (672/800) | 424.10 s
+[Task  6/ 6]  Current/Best:    4.87/  47.43 GFLOPS | Progress: (768/800) | 469.62 s
+[Task  6/ 6]  Current/Best:   32.41/  47.43 GFLOPS | Progress: (800/800) | 502.11 s Done.
+Exported library with batch size 60
+optimized: {'mean': 0.04093635827302933, 'median': 0.03916150890290737, 'std': 0.007149889512626951}
+unoptimized: {'mean': 0.04070765804499388, 'median': 0.04087085835635662, 'std': 0.0015735450652864592}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 64 
+###############################################################
+
+{'mean': 0.058767967857420444, 'median': 0.05722274072468281, 'std': 0.0031465977806711576}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    1.63/   5.03 GFLOPS | Progress: (84/800) | 161.21 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    1.18/  18.74 GFLOPS | Progress: (96/800) | 125.35 s
+[Task  2/ 6]  Current/Best:    0.57/  18.74 GFLOPS | Progress: (192/800) | 174.75 s
+[Task  2/ 6]  Current/Best:    1.29/  21.36 GFLOPS | Progress: (288/800) | 210.10 s
+[Task  2/ 6]  Current/Best:    1.61/  21.36 GFLOPS | Progress: (384/800) | 239.58 s
+[Task  2/ 6]  Current/Best:    1.62/  21.36 GFLOPS | Progress: (480/800) | 269.85 s
+[Task  2/ 6]  Current/Best:    1.12/  21.36 GFLOPS | Progress: (576/800) | 298.73 s
+[Task  2/ 6]  Current/Best:    0.67/  21.36 GFLOPS | Progress: (672/800) | 332.75 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   15.27/  18.21 GFLOPS | Progress: (96/800) | 109.64 s
+[Task  3/ 6]  Current/Best:    7.53/  18.21 GFLOPS | Progress: (192/800) | 139.97 s
+[Task  3/ 6]  Current/Best:    3.96/  18.21 GFLOPS | Progress: (252/800) | 159.01 s Done.
+
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  4/ 6]  Current/Best:    8.86/  29.17 GFLOPS | Progress: (96/800) | 111.68 s
+[Task  4/ 6]  Current/Best:    5.26/  36.51 GFLOPS | Progress: (192/800) | 182.91 s
+[Task  4/ 6]  Current/Best:   11.54/  41.50 GFLOPS | Progress: (288/800) | 237.53 s
+[Task  4/ 6]  Current/Best:    6.18/  41.50 GFLOPS | Progress: (384/800) | 282.98 s
+[Task  4/ 6]  Current/Best:    5.00/  41.50 GFLOPS | Progress: (480/800) | 321.07 s
+[Task  4/ 6]  Current/Best:   15.18/  41.50 GFLOPS | Progress: (576/800) | 360.71 s
+[Task  4/ 6]  Current/Best:    3.45/  41.50 GFLOPS | Progress: (672/800) | 397.08 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    5.18/   9.68 GFLOPS | Progress: (96/800) | 106.95 s
+[Task  5/ 6]  Current/Best:    2.29/   9.68 GFLOPS | Progress: (168/800) | 128.88 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:   19.53/  41.58 GFLOPS | Progress: (96/800) | 116.90 s
+[Task  6/ 6]  Current/Best:    5.14/  50.10 GFLOPS | Progress: (192/800) | 171.71 s
+[Task  6/ 6]  Current/Best:   32.28/  50.10 GFLOPS | Progress: (288/800) | 213.33 s
+[Task  6/ 6]  Current/Best:    5.58/  50.10 GFLOPS | Progress: (384/800) | 249.97 s
+[Task  6/ 6]  Current/Best:    5.37/  50.10 GFLOPS | Progress: (480/800) | 286.18 s
+[Task  6/ 6]  Current/Best:    7.26/  50.10 GFLOPS | Progress: (576/800) | 319.71 s Done.
+Exported library with batch size 64
+optimized: {'mean': 0.03672397695481777, 'median': 0.03532834816724062, 'std': 0.007025129484234824}
+unoptimized: {'mean': 0.058767967857420444, 'median': 0.05722274072468281, 'std': 0.0031465977806711576}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 128 
+###############################################################
+
+{'mean': 0.07841540966182947, 'median': 0.07561002857983112, 'std': 0.004310170806504396}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    4.33/   4.69 GFLOPS | Progress: (96/800) | 184.18 s Done.
+
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    2.35/  22.13 GFLOPS | Progress: (96/800) | 101.32 s
+[Task  2/ 6]  Current/Best:    0.63/  22.13 GFLOPS | Progress: (192/800) | 153.33 s
+[Task  2/ 6]  Current/Best:    1.48/  23.74 GFLOPS | Progress: (288/800) | 191.72 s
+[Task  2/ 6]  Current/Best:    1.93/  26.49 GFLOPS | Progress: (384/800) | 225.76 s
+[Task  2/ 6]  Current/Best:    2.30/  26.49 GFLOPS | Progress: (480/800) | 265.28 s
+[Task  2/ 6]  Current/Best:    0.93/  26.49 GFLOPS | Progress: (576/800) | 295.54 s
+[Task  2/ 6]  Current/Best:    1.36/  26.49 GFLOPS | Progress: (672/800) | 328.58 s
+[Task  2/ 6]  Current/Best:    2.69/  26.49 GFLOPS | Progress: (768/800) | 360.43 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   18.19/  31.18 GFLOPS | Progress: (96/800) | 107.56 s
+[Task  3/ 6]  Current/Best:    9.76/  35.36 GFLOPS | Progress: (192/800) | 139.75 s
+[Task  3/ 6]  Current/Best:   24.59/  35.36 GFLOPS | Progress: (288/800) | 173.62 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:   11.76/  39.63 GFLOPS | Progress: (96/800) | 109.12 s
+[Task  4/ 6]  Current/Best:   10.33/  39.63 GFLOPS | Progress: (192/800) | 180.81 s
+[Task  4/ 6]  Current/Best:   20.01/  40.91 GFLOPS | Progress: (288/800) | 237.23 s
+[Task  4/ 6]  Current/Best:    5.59/  44.82 GFLOPS | Progress: (384/800) | 291.36 s
+[Task  4/ 6]  Current/Best:   20.60/  58.99 GFLOPS | Progress: (480/800) | 340.44 s
+[Task  4/ 6]  Current/Best:   34.46/  59.74 GFLOPS | Progress: (576/800) | 390.16 s
+[Task  4/ 6]  Current/Best:   20.03/  59.74 GFLOPS | Progress: (672/800) | 429.97 s
+[Task  4/ 6]  Current/Best:   14.22/  59.74 GFLOPS | Progress: (768/800) | 475.52 s
+[Task  4/ 6]  Current/Best:   45.42/  59.74 GFLOPS | Progress: (800/800) | 499.16 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    4.88/  14.39 GFLOPS | Progress: (96/800) | 99.63 s
+[Task  5/ 6]  Current/Best:    4.24/  16.71 GFLOPS | Progress: (192/800) | 131.09 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:   47.94/  47.94 GFLOPS | Progress: (96/800) | 109.43 s
+[Task  6/ 6]  Current/Best:   14.66/  64.41 GFLOPS | Progress: (192/800) | 170.82 s
+[Task  6/ 6]  Current/Best:    4.82/  65.41 GFLOPS | Progress: (288/800) | 230.73 s
+[Task  6/ 6]  Current/Best:   13.34/  65.62 GFLOPS | Progress: (384/800) | 272.20 s
+[Task  6/ 6]  Current/Best:    8.52/  65.62 GFLOPS | Progress: (480/800) | 321.75 s
+[Task  6/ 6]  Current/Best:   13.37/  65.62 GFLOPS | Progress: (576/800) | 366.53 s
+[Task  6/ 6]  Current/Best:    6.16/  65.62 GFLOPS | Progress: (672/800) | 408.05 s
+[Task  6/ 6]  Current/Best:    5.80/  65.62 GFLOPS | Progress: (768/800) | 447.88 s Done.
+Exported library with batch size 128
+optimized: {'mean': 0.046424707397818565, 'median': 0.043532741256058216, 'std': 0.008690345000129681}
+unoptimized: {'mean': 0.07841540966182947, 'median': 0.07561002857983112, 'std': 0.004310170806504396}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 200 
+###############################################################
+
+{'mean': 0.06228805519640446, 'median': 0.06162698846310377, 'std': 0.0028303940323464293}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    1.93/   7.29 GFLOPS | Progress: (96/800) | 180.22 s
+[Task  1/ 6]  Current/Best:    4.11/   7.29 GFLOPS | Progress: (144/800) | 205.09 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:    3.25/  12.44 GFLOPS | Progress: (96/800) | 106.92 s
+[Task  2/ 6]  Current/Best:    8.75/  24.40 GFLOPS | Progress: (192/800) | 161.00 s
+[Task  2/ 6]  Current/Best:    3.50/  25.65 GFLOPS | Progress: (288/800) | 198.10 s
+[Task  2/ 6]  Current/Best:    2.63/  25.65 GFLOPS | Progress: (384/800) | 235.23 s
+[Task  2/ 6]  Current/Best:    3.97/  27.15 GFLOPS | Progress: (480/800) | 273.65 s
+[Task  2/ 6]  Current/Best:    3.08/  27.15 GFLOPS | Progress: (576/800) | 313.73 s
+[Task  2/ 6]  Current/Best:    3.07/  27.82 GFLOPS | Progress: (672/800) | 346.67 s
+[Task  2/ 6]  Current/Best:    0.55/  29.13 GFLOPS | Progress: (768/800) | 380.80 s
+[Task  2/ 6]  Current/Best:   12.42/  29.13 GFLOPS | Progress: (800/800) | 400.47 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   19.07/  44.60 GFLOPS | Progress: (96/800) | 113.58 s
+[Task  3/ 6]  Current/Best:   21.63/  48.35 GFLOPS | Progress: (192/800) | 153.54 s
+[Task  3/ 6]  Current/Best:   13.67/  48.35 GFLOPS | Progress: (288/800) | 189.47 s
+[Task  3/ 6]  Current/Best:   24.09/  48.35 GFLOPS | Progress: (384/800) | 223.38 s
+[Task  3/ 6]  Current/Best:   20.35/  48.35 GFLOPS | Progress: (432/800) | 246.08 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:   36.67/  64.32 GFLOPS | Progress: (96/800) | 112.50 s
+[Task  4/ 6]  Current/Best:    2.49/  64.32 GFLOPS | Progress: (192/800) | 204.11 s
+[Task  4/ 6]  Current/Best:    1.88/  65.85 GFLOPS | Progress: (288/800) | 302.32 s
+[Task  4/ 6]  Current/Best:   30.61/  65.85 GFLOPS | Progress: (384/800) | 365.61 s
+[Task  4/ 6]  Current/Best:   10.43/  67.38 GFLOPS | Progress: (480/800) | 421.13 s
+[Task  4/ 6]  Current/Best:   30.39/  68.09 GFLOPS | Progress: (576/800) | 475.91 s
+[Task  4/ 6]  Current/Best:   18.72/  68.09 GFLOPS | Progress: (672/800) | 528.61 s
+[Task  4/ 6]  Current/Best:   46.84/  68.09 GFLOPS | Progress: (768/800) | 568.53 s
+[Task  4/ 6]  Current/Best:   38.53/  68.09 GFLOPS | Progress: (800/800) | 593.24 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:    9.50/  22.74 GFLOPS | Progress: (96/800) | 102.06 s
+[Task  5/ 6]  Current/Best:    9.26/  23.10 GFLOPS | Progress: (192/800) | 139.92 s
+[Task  5/ 6]  Current/Best:   12.22/  24.36 GFLOPS | Progress: (288/800) | 173.90 s Done.
+
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:   15.31/  62.09 GFLOPS | Progress: (96/800) | 99.06 s
+[Task  6/ 6]  Current/Best:    6.90/  66.45 GFLOPS | Progress: (192/800) | 179.45 s
+[Task  6/ 6]  Current/Best:    9.87/  67.93 GFLOPS | Progress: (288/800) | 254.71 s
+[Task  6/ 6]  Current/Best:   10.41/  68.64 GFLOPS | Progress: (384/800) | 313.71 s
+[Task  6/ 6]  Current/Best:   21.63/  72.51 GFLOPS | Progress: (480/800) | 365.14 s
+[Task  6/ 6]  Current/Best:   17.61/  72.51 GFLOPS | Progress: (576/800) | 413.83 s
+[Task  6/ 6]  Current/Best:   10.24/  72.51 GFLOPS | Progress: (672/800) | 461.91 s
+[Task  6/ 6]  Current/Best:   14.14/  72.51 GFLOPS | Progress: (768/800) | 507.22 s
+[Task  6/ 6]  Current/Best:   32.02/  72.51 GFLOPS | Progress: (800/800) | 525.05 s Done.
+Exported library with batch size 200
+optimized: {'mean': 0.04862299654632807, 'median': 0.04526686388999224, 'std': 0.00987805131031546}
+unoptimized: {'mean': 0.06228805519640446, 'median': 0.06162698846310377, 'std': 0.0028303940323464293}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 256 
+###############################################################
+
+{'mean': 0.11866443324834108, 'median': 0.1172203104943037, 'std': 0.004416817621787888}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    5.76/   9.29 GFLOPS | Progress: (96/800) | 178.34 s
+[Task  1/ 6]  Current/Best:    9.01/   9.40 GFLOPS | Progress: (108/800) | 184.88 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:    3.43/  20.68 GFLOPS | Progress: (96/800) | 101.28 s
+[Task  2/ 6]  Current/Best:    2.60/  24.10 GFLOPS | Progress: (192/800) | 149.04 s
+[Task  2/ 6]  Current/Best:    7.78/  25.24 GFLOPS | Progress: (288/800) | 188.06 s
+[Task  2/ 6]  Current/Best:    3.56/  30.24 GFLOPS | Progress: (384/800) | 223.53 s
+[Task  2/ 6]  Current/Best:    1.09/  30.64 GFLOPS | Progress: (480/800) | 263.80 s
+[Task  2/ 6]  Current/Best:    5.53/  30.64 GFLOPS | Progress: (576/800) | 300.82 s
+[Task  2/ 6]  Current/Best:    3.24/  30.64 GFLOPS | Progress: (672/800) | 336.58 s
+[Task  2/ 6]  Current/Best:    4.08/  30.64 GFLOPS | Progress: (768/800) | 371.56 s
+[Task  2/ 6]  Current/Best:    6.89/  30.64 GFLOPS | Progress: (800/800) | 394.49 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   23.11/  49.36 GFLOPS | Progress: (96/800) | 109.69 s
+[Task  3/ 6]  Current/Best:   22.62/  62.50 GFLOPS | Progress: (192/800) | 147.04 s
+[Task  3/ 6]  Current/Best:   32.51/  62.50 GFLOPS | Progress: (288/800) | 180.40 s
+[Task  3/ 6]  Current/Best:    7.81/  62.50 GFLOPS | Progress: (324/800) | 199.77 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:    8.67/  56.10 GFLOPS | Progress: (96/800) | 119.72 s
+[Task  4/ 6]  Current/Best:    2.92/  64.22 GFLOPS | Progress: (192/800) | 192.11 s
+[Task  4/ 6]  Current/Best:   11.10/  69.23 GFLOPS | Progress: (288/800) | 259.30 s
+[Task  4/ 6]  Current/Best:   24.48/  70.47 GFLOPS | Progress: (384/800) | 318.98 s
+[Task  4/ 6]  Current/Best:   27.91/  70.47 GFLOPS | Progress: (480/800) | 367.59 s
+[Task  4/ 6]  Current/Best:    2.03/  73.01 GFLOPS | Progress: (576/800) | 417.06 s
+[Task  4/ 6]  Current/Best:   40.84/  73.01 GFLOPS | Progress: (672/800) | 463.14 s
+[Task  4/ 6]  Current/Best:   23.20/  73.01 GFLOPS | Progress: (768/800) | 507.74 s
+[Task  4/ 6]  Current/Best:   41.16/  73.25 GFLOPS | Progress: (800/800) | 535.58 s
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  5/ 6]  Current/Best:    6.44/  31.36 GFLOPS | Progress: (96/800) | 106.32 s
+[Task  5/ 6]  Current/Best:    4.56/  31.37 GFLOPS | Progress: (192/800) | 143.24 s
+[Task  5/ 6]  Current/Best:   15.32/  31.37 GFLOPS | Progress: (216/800) | 159.63 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:    9.23/  42.80 GFLOPS | Progress: (96/800) | 107.54 s
+[Task  6/ 6]  Current/Best:   17.06/  46.94 GFLOPS | Progress: (192/800) | 173.46 s
+[Task  6/ 6]  Current/Best:   17.21/  65.15 GFLOPS | Progress: (288/800) | 225.91 s
+[Task  6/ 6]  Current/Best:   24.62/  68.74 GFLOPS | Progress: (384/800) | 282.24 s
+[Task  6/ 6]  Current/Best:   13.29/  69.05 GFLOPS | Progress: (480/800) | 332.06 s
+[Task  6/ 6]  Current/Best:   25.37/  69.05 GFLOPS | Progress: (576/800) | 382.54 s
+[Task  6/ 6]  Current/Best:   18.35/  69.05 GFLOPS | Progress: (672/800) | 418.36 s
+[Task  6/ 6]  Current/Best:   20.69/  69.05 GFLOPS | Progress: (768/800) | 460.53 s
+[Task  6/ 6]  Current/Best:   29.23/  69.05 GFLOPS | Progress: (800/800) | 487.29 s Done.
+Exported library with batch size 256
+optimized: {'mean': 0.061435820534825325, 'median': 0.05938864778727293, 'std': 0.009022111449354218}
+unoptimized: {'mean': 0.11866443324834108, 'median': 0.1172203104943037, 'std': 0.004416817621787888}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 512 
+###############################################################
+
+{'mean': 0.20294792018830776, 'median': 0.2024977235123515, 'std': 0.004612814341642456}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:    7.85/  18.42 GFLOPS | Progress: (96/800) | 182.39 s
+[Task  1/ 6]  Current/Best:    7.89/  18.42 GFLOPS | Progress: (120/800) | 198.23 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:    0.87/  14.86 GFLOPS | Progress: (96/800) | 107.59 s
+[Task  2/ 6]  Current/Best:    3.23/  25.11 GFLOPS | Progress: (192/800) | 165.13 s
+[Task  2/ 6]  Current/Best:    4.56/  25.18 GFLOPS | Progress: (288/800) | 209.87 s
+[Task  2/ 6]  Current/Best:    1.20/  25.18 GFLOPS | Progress: (384/800) | 254.64 s
+[Task  2/ 6]  Current/Best:    9.04/  25.18 GFLOPS | Progress: (480/800) | 292.09 s
+[Task  2/ 6]  Current/Best:    6.29/  32.74 GFLOPS | Progress: (576/800) | 336.27 s
+[Task  2/ 6]  Current/Best:    4.44/  36.21 GFLOPS | Progress: (672/800) | 370.71 s Done.
+
+[Task  2/ 6]  Current/Best:    2.28/  36.21 GFLOPS | Progress: (768/800) | 408.85 s
+[Task  2/ 6]  Current/Best:   10.58/  36.21 GFLOPS | Progress: (800/800) | 427.85 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   12.21/ 100.71 GFLOPS | Progress: (96/800) | 105.70 s
+[Task  3/ 6]  Current/Best:   19.67/ 100.71 GFLOPS | Progress: (192/800) | 145.05 s
+[Task  3/ 6]  Current/Best:    7.83/ 100.71 GFLOPS | Progress: (288/800) | 184.00 s
+[Task  3/ 6]  Current/Best:   50.90/ 100.71 GFLOPS | Progress: (360/800) | 208.62 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:    5.36/ 102.47 GFLOPS | Progress: (96/800) | 140.38 s
+[Task  4/ 6]  Current/Best:   15.15/ 115.08 GFLOPS | Progress: (192/800) | 221.90 s
+[Task  4/ 6]  Current/Best:   10.94/ 117.17 GFLOPS | Progress: (288/800) | 302.46 s
+[Task  4/ 6]  Current/Best:   19.39/ 121.83 GFLOPS | Progress: (384/800) | 377.52 s
+[Task  4/ 6]  Current/Best:   30.94/ 126.09 GFLOPS | Progress: (480/800) | 437.74 s
+[Task  4/ 6]  Current/Best:   48.06/ 126.49 GFLOPS | Progress: (576/800) | 487.78 s
+[Task  4/ 6]  Current/Best:   50.54/ 126.49 GFLOPS | Progress: (672/800) | 538.25 s
+[Task  4/ 6]  Current/Best:   48.25/ 126.49 GFLOPS | Progress: (768/800) | 587.71 s
+[Task  4/ 6]  Current/Best:   82.19/ 126.49 GFLOPS | Progress: (800/800) | 610.92 s
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   53.77/  55.83 GFLOPS | Progress: (96/800) | 108.81 s
+[Task  5/ 6]  Current/Best:   14.23/  57.29 GFLOPS | Progress: (192/800) | 150.97 s
+[Task  5/ 6]  Current/Best:   17.67/  57.29 GFLOPS | Progress: (240/800) | 172.08 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  6/ 6]  Current/Best:   25.34/  53.90 GFLOPS | Progress: (96/800) | 122.33 s
+[Task  6/ 6]  Current/Best:   40.26/  59.42 GFLOPS | Progress: (192/800) | 195.65 s
+[Task  6/ 6]  Current/Best:    3.81/  60.24 GFLOPS | Progress: (288/800) | 257.63 s
+[Task  6/ 6]  Current/Best:   15.86/  60.24 GFLOPS | Progress: (384/800) | 318.00 s
+[Task  6/ 6]  Current/Best:   51.03/  63.76 GFLOPS | Progress: (480/800) | 374.06 s
+[Task  6/ 6]  Current/Best:   21.23/  63.76 GFLOPS | Progress: (576/800) | 423.96 s
+[Task  6/ 6]  Current/Best:   27.12/  63.76 GFLOPS | Progress: (672/800) | 470.69 s
+[Task  6/ 6]  Current/Best:   37.99/  63.76 GFLOPS | Progress: (768/800) | 512.80 s
+[Task  6/ 6]  Current/Best:   34.02/  63.76 GFLOPS | Progress: (800/800) | 536.69 s Done.
+Exported library with batch size 512
+optimized: {'mean': 0.07809821981936693, 'median': 0.07604123093187809, 'std': 0.00872547414922352}
+unoptimized: {'mean': 0.20294792018830776, 'median': 0.2024977235123515, 'std': 0.004612814341642456}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 1024 
+###############################################################
+
+{'mean': 0.3654408734291792, 'median': 0.3637789748609066, 'std': 0.004060223259252701}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   16.19/  31.04 GFLOPS | Progress: (96/800) | 178.37 s
+[Task  1/ 6]  Current/Best:   23.24/  31.04 GFLOPS | Progress: (132/800) | 199.05 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:    5.88/  28.70 GFLOPS | Progress: (96/800) | 112.17 s
+[Task  2/ 6]  Current/Best:   28.65/  28.93 GFLOPS | Progress: (192/800) | 172.65 s
+[Task  2/ 6]  Current/Best:    2.48/  28.93 GFLOPS | Progress: (288/800) | 216.46 s
+[Task  2/ 6]  Current/Best:    2.97/  29.79 GFLOPS | Progress: (384/800) | 256.68 s
+[Task  2/ 6]  Current/Best:    1.25/  29.79 GFLOPS | Progress: (480/800) | 298.85 s
+[Task  2/ 6]  Current/Best:    7.15/  29.79 GFLOPS | Progress: (576/800) | 347.28 s
+[Task  2/ 6]  Current/Best:    4.78/  29.79 GFLOPS | Progress: (672/800) | 386.04 s
+[Task  2/ 6]  Current/Best:   17.39/  29.79 GFLOPS | Progress: (768/800) | 420.46 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   51.29/ 111.38 GFLOPS | Progress: (96/800) | 107.71 s
+[Task  3/ 6]  Current/Best:   56.97/ 156.99 GFLOPS | Progress: (192/800) | 168.22 s
+[Task  3/ 6]  Current/Best:   20.49/ 156.99 GFLOPS | Progress: (288/800) | 204.93 s
+[Task  3/ 6]  Current/Best:   21.98/ 156.99 GFLOPS | Progress: (384/800) | 248.98 s
+[Task  3/ 6]  Current/Best:   23.07/ 156.99 GFLOPS | Progress: (396/800) | 264.78 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:   11.19/ 196.95 GFLOPS | Progress: (96/800) | 140.87 s
+[Task  4/ 6]  Current/Best:   10.56/ 201.72 GFLOPS | Progress: (192/800) | 247.31 s
+[Task  4/ 6]  Current/Best:   92.83/ 212.71 GFLOPS | Progress: (288/800) | 341.35 s
+[Task  4/ 6]  Current/Best:   91.98/ 212.71 GFLOPS | Progress: (384/800) | 417.15 s
+[Task  4/ 6]  Current/Best:  154.36/ 212.71 GFLOPS | Progress: (480/800) | 477.71 s
+[Task  4/ 6]  Current/Best:   39.61/ 212.71 GFLOPS | Progress: (576/800) | 533.46 s
+[Task  4/ 6]  Current/Best:  144.08/ 212.71 GFLOPS | Progress: (672/800) | 585.89 s
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  5/ 6]  Current/Best:   46.65/ 101.86 GFLOPS | Progress: (96/800) | 111.11 s
+[Task  5/ 6]  Current/Best:   29.44/ 101.86 GFLOPS | Progress: (192/800) | 161.69 s
+[Task  5/ 6]  Current/Best:   22.50/ 101.86 GFLOPS | Progress: (264/800) | 185.74 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:   19.09/ 107.75 GFLOPS | Progress: (96/800) | 141.39 s Done.
+
+[Task  6/ 6]  Current/Best:   44.25/ 108.98 GFLOPS | Progress: (192/800) | 225.17 s
+[Task  6/ 6]  Current/Best:    7.79/ 115.10 GFLOPS | Progress: (288/800) | 283.80 s
+[Task  6/ 6]  Current/Best:    9.82/ 115.10 GFLOPS | Progress: (384/800) | 341.88 s
+[Task  6/ 6]  Current/Best:   36.01/ 115.10 GFLOPS | Progress: (480/800) | 391.90 s
+[Task  6/ 6]  Current/Best:   51.49/ 115.10 GFLOPS | Progress: (576/800) | 447.14 s
+[Task  6/ 6]  Current/Best:   36.93/ 117.35 GFLOPS | Progress: (672/800) | 493.38 s
+[Task  6/ 6]  Current/Best:   63.25/ 117.35 GFLOPS | Progress: (768/800) | 540.02 s
+[Task  6/ 6]  Current/Best:   96.36/ 117.35 GFLOPS | Progress: (800/800) | 570.77 sExported library with batch size 1024
+optimized: {'mean': 0.21567498799413443, 'median': 0.12492395471781492, 'std': 0.27322396969951845}
+unoptimized: {'mean': 0.3654408734291792, 'median': 0.3637789748609066, 'std': 0.004060223259252701}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 2048 
+###############################################################
+
+{'mean': 0.6866974988952279, 'median': 0.6846224423497915, 'std': 0.007051886128105359}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   25.71/  54.68 GFLOPS | Progress: (96/800) | 188.20 s
+[Task  1/ 6]  Current/Best:   36.95/  54.68 GFLOPS | Progress: (144/800) | 211.42 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  2/ 6]  Current/Best:    0.47/  51.23 GFLOPS | Progress: (96/800) | 131.85 s
+[Task  2/ 6]  Current/Best:   33.74/  53.67 GFLOPS | Progress: (192/800) | 212.78 s
+[Task  2/ 6]  Current/Best:   39.50/  53.67 GFLOPS | Progress: (288/800) | 265.48 s
+[Task  2/ 6]  Current/Best:   32.27/  57.70 GFLOPS | Progress: (384/800) | 320.54 s
+[Task  2/ 6]  Current/Best:   17.18/  58.76 GFLOPS | Progress: (480/800) | 361.75 s
+[Task  2/ 6]  Current/Best:    4.24/  58.76 GFLOPS | Progress: (576/800) | 400.33 s
+[Task  2/ 6]  Current/Best:    8.75/  58.76 GFLOPS | Progress: (672/800) | 442.09 s
+[Task  2/ 6]  Current/Best:    4.77/  58.76 GFLOPS | Progress: (768/800) | 483.13 s
+[Task  2/ 6]  Current/Best:   54.93/  58.76 GFLOPS | Progress: (800/800) | 503.33 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   96.53/ 180.75 GFLOPS | Progress: (96/800) | 106.83 s
+[Task  3/ 6]  Current/Best:   67.99/ 216.98 GFLOPS | Progress: (192/800) | 165.70 s
+[Task  3/ 6]  Current/Best:   42.12/ 216.98 GFLOPS | Progress: (288/800) | 216.38 s
+[Task  3/ 6]  Current/Best:   20.07/ 216.98 GFLOPS | Progress: (384/800) | 252.64 s
+[Task  3/ 6]  Current/Best:   20.34/ 216.98 GFLOPS | Progress: (432/800) | 285.07 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  4/ 6]  Current/Best:   15.36/ 333.70 GFLOPS | Progress: (96/800) | 168.01 s
+[Task  4/ 6]  Current/Best:   64.36/ 346.83 GFLOPS | Progress: (192/800) | 275.86 s
+[Task  4/ 6]  Current/Best:    3.31/ 346.83 GFLOPS | Progress: (288/800) | 358.10 s
+[Task  4/ 6]  Current/Best:   71.89/ 346.83 GFLOPS | Progress: (384/800) | 446.66 s
+[Task  4/ 6]  Current/Best:  112.43/ 346.83 GFLOPS | Progress: (480/800) | 519.29 s
+[Task  4/ 6]  Current/Best:   63.71/ 346.83 GFLOPS | Progress: (576/800) | 574.40 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   48.41/ 136.87 GFLOPS | Progress: (96/800) | 103.19 s
+[Task  5/ 6]  Current/Best:   74.27/ 154.02 GFLOPS | Progress: (192/800) | 156.44 s
+[Task  5/ 6]  Current/Best:   56.41/ 154.02 GFLOPS | Progress: (288/800) | 188.26 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:   54.16/ 164.39 GFLOPS | Progress: (96/800) | 137.05 s
+[Task  6/ 6]  Current/Best:   70.31/ 186.01 GFLOPS | Progress: (192/800) | 217.21 s
+[Task  6/ 6]  Current/Best:   35.65/ 188.43 GFLOPS | Progress: (288/800) | 275.14 s
+[Task  6/ 6]  Current/Best:   67.85/ 190.00 GFLOPS | Progress: (384/800) | 337.84 s
+[Task  6/ 6]  Current/Best:   56.54/ 190.00 GFLOPS | Progress: (480/800) | 399.43 s
+[Task  6/ 6]  Current/Best:  161.92/ 190.00 GFLOPS | Progress: (576/800) | 449.13 s
+[Task  6/ 6]  Current/Best:   43.39/ 196.93 GFLOPS | Progress: (672/800) | 500.73 s
+[Task  6/ 6]  Current/Best:   18.45/ 196.93 GFLOPS | Progress: (768/800) | 558.19 s
+[Task  6/ 6]  Current/Best:  120.83/ 196.93 GFLOPS | Progress: (800/800) | 581.35 s Done.
+Exported library with batch size 2048
+optimized: {'mean': 0.2272932045161724, 'median': 0.14483893755823374, 'std': 0.2473139354587361}
+unoptimized: {'mean': 0.6866974988952279, 'median': 0.6846224423497915, 'std': 0.007051886128105359}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 3000 
+###############################################################
+
+{'mean': 0.30610810965299606, 'median': 0.3060155548155308, 'std': 0.004815674870917752}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   33.99/  62.20 GFLOPS | Progress: (96/800) | 173.13 s
+[Task  1/ 6]  Current/Best:   23.47/  66.08 GFLOPS | Progress: (192/800) | 228.96 s
+[Task  1/ 6]  Current/Best:   36.23/  66.08 GFLOPS | Progress: (288/800) | 272.88 s
+[Task  1/ 6]  Current/Best:   25.69/  66.08 GFLOPS | Progress: (384/800) | 310.15 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:   12.00/  67.14 GFLOPS | Progress: (96/800) | 152.88 s
+[Task  2/ 6]  Current/Best:    8.35/  75.26 GFLOPS | Progress: (192/800) | 267.29 s
+[Task  2/ 6]  Current/Best:    8.45/  76.32 GFLOPS | Progress: (288/800) | 337.31 s
+[Task  2/ 6]  Current/Best:   20.51/  78.91 GFLOPS | Progress: (384/800) | 411.42 s
+[Task  2/ 6]  Current/Best:   13.00/  79.90 GFLOPS | Progress: (480/800) | 482.05 s
+[Task  2/ 6]  Current/Best:   15.13/  79.90 GFLOPS | Progress: (576/800) | 538.85 s
+[Task  2/ 6]  Current/Best:   37.95/  79.90 GFLOPS | Progress: (672/800) | 602.04 s
+[Task  2/ 6]  Current/Best:   33.03/  79.90 GFLOPS | Progress: (768/800) | 657.23 s
+[Task  2/ 6]  Current/Best:   57.82/  79.90 GFLOPS | Progress: (800/800) | 693.26 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   85.49/ 219.40 GFLOPS | Progress: (96/800) | 108.03 s
+[Task  3/ 6]  Current/Best:   71.25/ 242.66 GFLOPS | Progress: (192/800) | 165.78 s
+[Task  3/ 6]  Current/Best:   91.83/ 244.54 GFLOPS | Progress: (288/800) | 217.82 s
+[Task  3/ 6]  Current/Best:   63.70/ 244.54 GFLOPS | Progress: (384/800) | 259.71 s
+[Task  3/ 6]  Current/Best:   60.65/ 244.54 GFLOPS | Progress: (480/800) | 307.06 s
+[Task  3/ 6]  Current/Best:   34.61/ 244.54 GFLOPS | Progress: (576/800) | 354.04 s
+[Task  3/ 6]  Current/Best:   53.63/ 244.54 GFLOPS | Progress: (672/800) | 403.55 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:   68.74/ 281.41 GFLOPS | Progress: (96/800) | 141.91 s
+[Task  4/ 6]  Current/Best:  105.86/ 345.51 GFLOPS | Progress: (192/800) | 272.67 s
+[Task  4/ 6]  Current/Best:   76.91/ 353.62 GFLOPS | Progress: (288/800) | 414.09 s
+[Task  4/ 6]  Current/Best:   12.94/ 353.62 GFLOPS | Progress: (384/800) | 532.98 s
+[Task  4/ 6]  Current/Best:   71.73/ 353.62 GFLOPS | Progress: (480/800) | 667.23 s
+[Task  4/ 6]  Current/Best:   32.76/ 353.62 GFLOPS | Progress: (576/800) | 805.42 s
+[Task  4/ 6]  Current/Best:   71.78/ 353.62 GFLOPS | Progress: (672/800) | 944.21 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   41.14/ 175.64 GFLOPS | Progress: (96/800) | 103.33 s
+[Task  5/ 6]  Current/Best:   13.86/ 183.67 GFLOPS | Progress: (192/800) | 155.06 s
+[Task  5/ 6]  Current/Best:   31.84/ 183.67 GFLOPS | Progress: (288/800) | 209.07 s
+[Task  5/ 6]  Current/Best:   31.90/ 183.67 GFLOPS | Progress: (384/800) | 244.88 s
+[Task  5/ 6]  Current/Best:   23.79/ 183.67 GFLOPS | Progress: (480/800) | 288.59 s
+[Task  5/ 6]  Current/Best:   29.17/ 183.67 GFLOPS | Progress: (576/800) | 331.09 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:  105.17/ 217.51 GFLOPS | Progress: (96/800) | 123.30 s
+[Task  6/ 6]  Current/Best:   80.38/ 236.57 GFLOPS | Progress: (192/800) | 233.47 s
+[Task  6/ 6]  Current/Best:   67.92/ 236.57 GFLOPS | Progress: (288/800) | 340.95 s
+[Task  6/ 6]  Current/Best:   34.59/ 240.82 GFLOPS | Progress: (384/800) | 435.56 s
+[Task  6/ 6]  Current/Best:  149.33/ 240.82 GFLOPS | Progress: (480/800) | 553.30 s
+[Task  6/ 6]  Current/Best:   85.24/ 241.10 GFLOPS | Progress: (576/800) | 657.11 s
+[Task  6/ 6]  Current/Best:  132.73/ 247.26 GFLOPS | Progress: (672/800) | 727.00 s
+[Task  6/ 6]  Current/Best:   42.25/ 247.63 GFLOPS | Progress: (768/800) | 786.47 s
+[Task  6/ 6]  Current/Best:  122.71/ 247.63 GFLOPS | Progress: (800/800) | 838.46 s Done.
+Exported library with batch size 3000
+optimized: {'mean': 0.13365189544856548, 'median': 0.13294161763042212, 'std': 0.01011280245970737}
+unoptimized: {'mean': 0.30610810965299606, 'median': 0.3060155548155308, 'std': 0.004815674870917752}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 3536 
+###############################################################
+
+{'mean': 0.3466140618547797, 'median': 0.34690944012254477, 'std': 0.002611150517357957}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   31.08/  81.81 GFLOPS | Progress: (96/800) | 179.92 s
+[Task  1/ 6]  Current/Best:   42.67/  81.81 GFLOPS | Progress: (192/800) | 225.74 s
+[Task  1/ 6]  Current/Best:   11.25/  81.81 GFLOPS | Progress: (240/800) | 256.91 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:    7.84/  82.13 GFLOPS | Progress: (96/800) | 121.86 s
+[Task  2/ 6]  Current/Best:   11.34/  82.37 GFLOPS | Progress: (192/800) | 210.89 s
+[Task  2/ 6]  Current/Best:   59.43/  95.48 GFLOPS | Progress: (288/800) | 273.17 s
+[Task  2/ 6]  Current/Best:   21.66/  95.48 GFLOPS | Progress: (384/800) | 334.20 s
+[Task  2/ 6]  Current/Best:   33.85/  95.48 GFLOPS | Progress: (480/800) | 391.41 s
+[Task  2/ 6]  Current/Best:    6.35/  96.68 GFLOPS | Progress: (576/800) | 437.53 s
+[Task  2/ 6]  Current/Best:   18.35/  96.68 GFLOPS | Progress: (672/800) | 499.25 s
+[Task  2/ 6]  Current/Best:    5.85/  96.68 GFLOPS | Progress: (768/800) | 544.11 s
+[Task  2/ 6]  Current/Best:   75.14/  96.68 GFLOPS | Progress: (800/800) | 566.37 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   27.96/ 137.25 GFLOPS | Progress: (96/800) | 93.21 s
+[Task  3/ 6]  Current/Best:   76.38/ 220.78 GFLOPS | Progress: (192/800) | 144.22 s
+[Task  3/ 6]  Current/Best:   80.09/ 254.30 GFLOPS | Progress: (288/800) | 193.82 s
+[Task  3/ 6]  Current/Best:   79.64/ 254.30 GFLOPS | Progress: (384/800) | 240.61 s
+[Task  3/ 6]  Current/Best:   44.61/ 254.30 GFLOPS | Progress: (480/800) | 279.97 s
+[Task  3/ 6]  Current/Best:   32.01/ 254.30 GFLOPS | Progress: (576/800) | 328.67 s
+[Task  3/ 6]  Current/Best:   29.90/ 254.30 GFLOPS | Progress: (672/800) | 388.93 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:  201.30/ 275.76 GFLOPS | Progress: (96/800) | 154.77 s
+[Task  4/ 6]  Current/Best:   51.48/ 397.12 GFLOPS | Progress: (192/800) | 277.09 s
+[Task  4/ 6]  Current/Best:  238.88/ 397.12 GFLOPS | Progress: (288/800) | 378.25 s
+[Task  4/ 6]  Current/Best:  139.83/ 397.12 GFLOPS | Progress: (384/800) | 481.04 s
+[Task  4/ 6]  Current/Best:   33.86/ 397.12 GFLOPS | Progress: (480/800) | 551.72 s
+[Task  4/ 6]  Current/Best:  361.41/ 397.12 GFLOPS | Progress: (576/800) | 612.13 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   34.58/ 178.83 GFLOPS | Progress: (96/800) | 100.33 s
+[Task  5/ 6]  Current/Best:   32.12/ 204.77 GFLOPS | Progress: (192/800) | 146.52 s
+[Task  5/ 6]  Current/Best:   12.92/ 204.77 GFLOPS | Progress: (288/800) | 189.67 s
+[Task  5/ 6]  Current/Best:   28.28/ 204.77 GFLOPS | Progress: (384/800) | 229.55 s
+[Task  5/ 6]  Current/Best:   53.88/ 204.77 GFLOPS | Progress: (480/800) | 281.52 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:   70.62/ 245.74 GFLOPS | Progress: (96/800) | 133.15 s
+[Task  6/ 6]  Current/Best:  166.78/ 281.29 GFLOPS | Progress: (192/800) | 250.53 s
+[Task  6/ 6]  Current/Best:   67.93/ 281.29 GFLOPS | Progress: (288/800) | 330.69 s
+[Task  6/ 6]  Current/Best:  112.20/ 281.29 GFLOPS | Progress: (384/800) | 395.96 s
+[Task  6/ 6]  Current/Best:   21.95/ 281.29 GFLOPS | Progress: (480/800) | 459.14 s
+[Task  6/ 6]  Current/Best:  198.13/ 281.29 GFLOPS | Progress: (576/800) | 528.57 s Done.
+Exported library with batch size 3536
+optimized: {'mean': 0.20791520364582539, 'median': 0.1993202604353428, 'std': 0.025715729478868583}
+unoptimized: {'mean': 0.3466140618547797, 'median': 0.34690944012254477, 'std': 0.002611150517357957}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 4096 
+###############################################################
+
+{'mean': 1.3259338960051537, 'median': 1.3251707656309009, 'std': 0.006806658425803815}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   29.16/  82.97 GFLOPS | Progress: (96/800) | 174.46 s
+[Task  1/ 6]  Current/Best:   37.07/  82.97 GFLOPS | Progress: (156/800) | 200.39 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:   24.83/  75.01 GFLOPS | Progress: (96/800) | 130.93 s
+[Task  2/ 6]  Current/Best:   16.88/  92.47 GFLOPS | Progress: (192/800) | 205.62 s
+[Task  2/ 6]  Current/Best:   24.82/  92.47 GFLOPS | Progress: (288/800) | 262.38 s
+[Task  2/ 6]  Current/Best:   68.68/  96.23 GFLOPS | Progress: (384/800) | 311.13 s
+[Task  2/ 6]  Current/Best:   11.58/ 108.65 GFLOPS | Progress: (480/800) | 356.32 s
+[Task  2/ 6]  Current/Best:   32.26/ 108.65 GFLOPS | Progress: (576/800) | 412.42 s
+[Task  2/ 6]  Current/Best:   25.18/ 108.65 GFLOPS | Progress: (672/800) | 459.03 s
+[Task  2/ 6]  Current/Best:   16.03/ 108.65 GFLOPS | Progress: (768/800) | 508.25 s
+[Task  2/ 6]  Current/Best:   87.26/ 108.65 GFLOPS | Progress: (800/800) | 528.52 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   81.20/ 224.06 GFLOPS | Progress: (96/800) | 95.74 s
+[Task  3/ 6]  Current/Best:   42.37/ 266.93 GFLOPS | Progress: (192/800) | 141.77 s
+[Task  3/ 6]  Current/Best:   58.34/ 266.93 GFLOPS | Progress: (288/800) | 205.96 s
+[Task  3/ 6]  Current/Best:   66.19/ 266.93 GFLOPS | Progress: (384/800) | 248.51 s
+[Task  3/ 6]  Current/Best:   58.93/ 266.93 GFLOPS | Progress: (468/800) | 304.87 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  4/ 6]  Current/Best:  224.18/ 378.18 GFLOPS | Progress: (96/800) | 143.45 s
+[Task  4/ 6]  Current/Best:  286.53/ 378.18 GFLOPS | Progress: (192/800) | 249.43 s
+[Task  4/ 6]  Current/Best:   71.73/ 382.46 GFLOPS | Progress: (288/800) | 336.25 s
+[Task  4/ 6]  Current/Best:   31.65/ 382.89 GFLOPS | Progress: (384/800) | 419.72 s
+[Task  4/ 6]  Current/Best:   56.46/ 382.89 GFLOPS | Progress: (480/800) | 488.41 s
+[Task  4/ 6]  Current/Best:  139.73/ 385.69 GFLOPS | Progress: (576/800) | 556.96 s
+[Task  4/ 6]  Current/Best:   46.82/ 387.81 GFLOPS | Progress: (672/800) | 621.68 s
+[Task  4/ 6]  Current/Best:   68.34/ 393.25 GFLOPS | Progress: (768/800) | 695.12 s
+[Task  4/ 6]  Current/Best:  364.45/ 416.14 GFLOPS | Progress: (800/800) | 728.46 s
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   70.64/ 203.82 GFLOPS | Progress: (96/800) | 104.41 s
+[Task  5/ 6]  Current/Best:   94.39/ 203.82 GFLOPS | Progress: (192/800) | 152.71 s
+[Task  5/ 6]  Current/Best:   48.37/ 203.82 GFLOPS | Progress: (288/800) | 200.10 s
+[Task  5/ 6]  Current/Best:   49.04/ 203.82 GFLOPS | Progress: (312/800) | 213.16 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  6/ 6]  Current/Best:  285.02/ 285.02 GFLOPS | Progress: (96/800) | 149.13 s
+[Task  6/ 6]  Current/Best:  147.27/ 295.21 GFLOPS | Progress: (192/800) | 236.01 s
+[Task  6/ 6]  Current/Best:   52.62/ 298.22 GFLOPS | Progress: (288/800) | 313.96 s
+[Task  6/ 6]  Current/Best:  138.11/ 301.19 GFLOPS | Progress: (384/800) | 377.63 s
+[Task  6/ 6]  Current/Best:   88.59/ 301.19 GFLOPS | Progress: (480/800) | 444.76 s
+[Task  6/ 6]  Current/Best:   17.72/ 301.19 GFLOPS | Progress: (576/800) | 496.35 s
+[Task  6/ 6]  Current/Best:   88.22/ 301.29 GFLOPS | Progress: (672/800) | 543.91 s
+[Task  6/ 6]  Current/Best:  149.00/ 303.37 GFLOPS | Progress: (768/800) | 595.36 s
+[Task  6/ 6]  Current/Best:  159.43/ 303.37 GFLOPS | Progress: (800/800) | 624.72 s Done.
+Exported library with batch size 4096
+optimized: {'mean': 0.2203485555946827, 'median': 0.13926464598625898, 'std': 0.24820603060997443}
+unoptimized: {'mean': 1.3259338960051537, 'median': 1.3251707656309009, 'std': 0.006806658425803815}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 8192 
+###############################################################
+
+{'mean': 2.6082562608644366, 'median': 2.607979904860258, 'std': 0.014977316978448856}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   48.72/ 121.17 GFLOPS | Progress: (96/800) | 185.87 s
+[Task  1/ 6]  Current/Best:   45.41/ 121.17 GFLOPS | Progress: (168/800) | 215.15 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:    3.61/ 155.33 GFLOPS | Progress: (96/800) | 131.28 s
+[Task  2/ 6]  Current/Best:   12.65/ 169.63 GFLOPS | Progress: (192/800) | 216.41 s
+[Task  2/ 6]  Current/Best:   33.84/ 169.63 GFLOPS | Progress: (288/800) | 273.59 s
+[Task  2/ 6]  Current/Best:    0.94/ 169.63 GFLOPS | Progress: (384/800) | 323.91 s
+[Task  2/ 6]  Current/Best:    8.98/ 169.63 GFLOPS | Progress: (480/800) | 370.80 s
+[Task  2/ 6]  Current/Best:    7.19/ 169.63 GFLOPS | Progress: (576/800) | 420.39 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   96.28/ 190.17 GFLOPS | Progress: (96/800) | 108.67 s
+[Task  3/ 6]  Current/Best:  162.94/ 272.56 GFLOPS | Progress: (192/800) | 160.19 s
+[Task  3/ 6]  Current/Best:  121.01/ 272.56 GFLOPS | Progress: (288/800) | 227.66 s
+[Task  3/ 6]  Current/Best:   45.19/ 272.56 GFLOPS | Progress: (384/800) | 264.06 s
+[Task  3/ 6]  Current/Best:   44.85/ 272.56 GFLOPS | Progress: (480/800) | 330.52 s
+[Task  3/ 6]  Current/Best:   85.86/ 272.56 GFLOPS | Progress: (504/800) | 357.08 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  4/ 6]  Current/Best:    2.98/ 338.48 GFLOPS | Progress: (96/800) | 147.70 s
+[Task  4/ 6]  Current/Best:   70.87/ 366.26 GFLOPS | Progress: (192/800) | 269.85 s
+[Task  4/ 6]  Current/Best:  173.11/ 366.26 GFLOPS | Progress: (288/800) | 373.47 s
+[Task  4/ 6]  Current/Best:   27.01/ 440.29 GFLOPS | Progress: (384/800) | 459.36 s
+[Task  4/ 6]  Current/Best:   20.22/ 440.29 GFLOPS | Progress: (480/800) | 529.97 s
+[Task  4/ 6]  Current/Best:   27.11/ 440.29 GFLOPS | Progress: (576/800) | 605.00 s
+[Task  4/ 6]  Current/Best:   50.24/ 472.78 GFLOPS | Progress: (672/800) | 657.52 s
+[Task  4/ 6]  Current/Best:  143.29/ 472.78 GFLOPS | Progress: (768/800) | 711.24 s
+[Task  4/ 6]  Current/Best:  268.36/ 472.78 GFLOPS | Progress: (800/800) | 747.71 s
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   25.34/ 247.78 GFLOPS | Progress: (96/800) | 102.37 s
+[Task  5/ 6]  Current/Best:   51.78/ 280.63 GFLOPS | Progress: (192/800) | 151.70 s
+[Task  5/ 6]  Current/Best:   72.69/ 280.63 GFLOPS | Progress: (288/800) | 206.85 s
+[Task  5/ 6]  Current/Best:   19.84/ 280.63 GFLOPS | Progress: (336/800) | 244.12 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  6/ 6]  Current/Best:   44.24/ 298.70 GFLOPS | Progress: (96/800) | 143.25 s
+[Task  6/ 6]  Current/Best:  179.81/ 359.33 GFLOPS | Progress: (192/800) | 242.22 s
+[Task  6/ 6]  Current/Best:   39.64/ 359.33 GFLOPS | Progress: (288/800) | 311.09 s
+[Task  6/ 6]  Current/Best:   38.67/ 365.40 GFLOPS | Progress: (384/800) | 381.21 s
+[Task  6/ 6]  Current/Best:   18.96/ 365.40 GFLOPS | Progress: (480/800) | 450.45 s
+[Task  6/ 6]  Current/Best:   55.63/ 370.22 GFLOPS | Progress: (576/800) | 508.86 s
+[Task  6/ 6]  Current/Best:   44.00/ 370.22 GFLOPS | Progress: (672/800) | 567.50 s
+[Task  6/ 6]  Current/Best:    7.83/ 370.22 GFLOPS | Progress: (768/800) | 621.50 s
+[Task  6/ 6]  Current/Best:  136.30/ 370.22 GFLOPS | Progress: (800/800) | 647.89 sExported library with batch size 8192
+optimized: {'mean': 0.21311593241989613, 'median': 0.20953684579581022, 'std': 0.011753670489550954}
+unoptimized: {'mean': 2.6082562608644366, 'median': 2.607979904860258, 'std': 0.014977316978448856}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 16384 
+###############################################################
+
+{'mean': 5.211321301758289, 'median': 5.2638339111581445, 'std': 0.08444024820182017}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  1/ 6]  Current/Best:   55.22/ 107.14 GFLOPS | Progress: (96/800) | 180.91 s
+[Task  1/ 6]  Current/Best:   39.81/ 142.10 GFLOPS | Progress: (180/800) | 220.44 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:   42.41/ 182.77 GFLOPS | Progress: (96/800) | 154.40 s
+[Task  2/ 6]  Current/Best:   51.03/ 250.39 GFLOPS | Progress: (192/800) | 244.09 s
+[Task  2/ 6]  Current/Best:    5.78/ 251.39 GFLOPS | Progress: (288/800) | 312.50 s
+[Task  2/ 6]  Current/Best:    5.97/ 255.57 GFLOPS | Progress: (384/800) | 376.71 s
+[Task  2/ 6]  Current/Best:   60.07/ 255.57 GFLOPS | Progress: (480/800) | 433.79 s
+[Task  2/ 6]  Current/Best:   28.12/ 266.31 GFLOPS | Progress: (576/800) | 480.27 s
+[Task  2/ 6]  Current/Best:   18.09/ 266.31 GFLOPS | Progress: (672/800) | 528.03 s
+[Task  2/ 6]  Current/Best:   35.81/ 266.31 GFLOPS | Progress: (768/800) | 573.56 s
+[Task  2/ 6]  Current/Best:   89.89/ 266.31 GFLOPS | Progress: (800/800) | 599.50 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:  158.75/ 289.30 GFLOPS | Progress: (96/800) | 106.92 s
+[Task  3/ 6]  Current/Best:   74.05/ 289.30 GFLOPS | Progress: (192/800) | 159.32 s
+[Task  3/ 6]  Current/Best:   81.60/ 289.30 GFLOPS | Progress: (288/800) | 223.93 s
+[Task  3/ 6]  Current/Best:   23.42/ 289.30 GFLOPS | Progress: (384/800) | 273.86 s
+[Task  3/ 6]  Current/Best:   49.75/ 289.30 GFLOPS | Progress: (480/800) | 348.07 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  4/ 6]  Current/Best:  118.34/ 484.06 GFLOPS | Progress: (96/800) | 163.63 s
+[Task  4/ 6]  Current/Best:   68.59/ 484.06 GFLOPS | Progress: (192/800) | 293.56 s
+[Task  4/ 6]  Current/Best:   40.83/ 484.06 GFLOPS | Progress: (288/800) | 388.21 s
+[Task  4/ 6]  Current/Best:  150.70/ 484.06 GFLOPS | Progress: (384/800) | 456.79 s
+[Task  4/ 6]  Current/Best:   41.03/ 484.06 GFLOPS | Progress: (480/800) | 530.48 s
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   77.11/ 253.25 GFLOPS | Progress: (96/800) | 108.41 s
+[Task  5/ 6]  Current/Best:   35.17/ 326.99 GFLOPS | Progress: (192/800) | 157.92 s
+[Task  5/ 6]  Current/Best:   58.92/ 326.99 GFLOPS | Progress: (288/800) | 230.80 s
+[Task  5/ 6]  Current/Best:   21.75/ 326.99 GFLOPS | Progress: (360/800) | 280.50 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  6/ 6]  Current/Best:   96.47/ 428.16 GFLOPS | Progress: (96/800) | 145.53 s
+[Task  6/ 6]  Current/Best:   33.40/ 428.16 GFLOPS | Progress: (192/800) | 258.73 s
+[Task  6/ 6]  Current/Best:  143.26/ 428.16 GFLOPS | Progress: (288/800) | 339.19 s
+[Task  6/ 6]  Current/Best:   32.46/ 428.53 GFLOPS | Progress: (384/800) | 410.34 s
+[Task  6/ 6]  Current/Best:   12.97/ 435.43 GFLOPS | Progress: (480/800) | 469.87 s
+[Task  6/ 6]  Current/Best:   21.54/ 441.15 GFLOPS | Progress: (576/800) | 522.07 s
+[Task  6/ 6]  Current/Best:   17.26/ 446.55 GFLOPS | Progress: (672/800) | 581.53 s
+[Task  6/ 6]  Current/Best:   38.42/ 446.55 GFLOPS | Progress: (768/800) | 645.68 s
+[Task  6/ 6]  Current/Best:  204.77/ 446.55 GFLOPS | Progress: (800/800) | 683.55 sExported library with batch size 16384
+optimized: {'mean': 0.40774057153612375, 'median': 0.40205863770097494, 'std': 0.012465369720716673}
+unoptimized: {'mean': 5.211321301758289, 'median': 5.2638339111581445, 'std': 0.08444024820182017}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 32768 
+###############################################################
+
+{'mean': 9.718329021707177, 'median': 9.73891899921, 'std': 0.09683858843942843}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   57.19/ 129.37 GFLOPS | Progress: (96/800) | 185.93 s
+[Task  1/ 6]  Current/Best:   37.42/ 324.07 GFLOPS | Progress: (192/800) | 240.86 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  2/ 6]  Current/Best:    5.19/ 223.39 GFLOPS | Progress: (96/800) | 153.73 s
+[Task  2/ 6]  Current/Best:  132.52/ 360.87 GFLOPS | Progress: (192/800) | 247.56 s
+[Task  2/ 6]  Current/Best:   20.66/ 360.87 GFLOPS | Progress: (288/800) | 322.74 s
+[Task  2/ 6]  Current/Best:   18.05/ 360.87 GFLOPS | Progress: (384/800) | 392.04 s
+[Task  2/ 6]  Current/Best:   15.39/ 360.87 GFLOPS | Progress: (480/800) | 451.21 s
+[Task  2/ 6]  Current/Best:   23.87/ 360.87 GFLOPS | Progress: (576/800) | 508.31 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  3/ 6]  Current/Best:   67.53/ 186.99 GFLOPS | Progress: (96/800) | 116.61 s
+[Task  3/ 6]  Current/Best:  148.29/ 275.25 GFLOPS | Progress: (192/800) | 165.50 s
+[Task  3/ 6]  Current/Best:   26.21/ 277.75 GFLOPS | Progress: (288/800) | 245.25 s
+[Task  3/ 6]  Current/Best:   40.10/ 277.75 GFLOPS | Progress: (384/800) | 291.60 s
+[Task  3/ 6]  Current/Best:   64.44/ 277.75 GFLOPS | Progress: (480/800) | 348.67 s
+[Task  3/ 6]  Current/Best:   24.38/ 277.75 GFLOPS | Progress: (576/800) | 435.54 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:   26.08/ 512.36 GFLOPS | Progress: (96/800) | 163.77 s
+[Task  4/ 6]  Current/Best:   21.83/ 512.36 GFLOPS | Progress: (192/800) | 290.71 s
+[Task  4/ 6]  Current/Best:   91.86/ 547.15 GFLOPS | Progress: (288/800) | 412.76 s
+[Task  4/ 6]  Current/Best:  274.55/ 699.19 GFLOPS | Progress: (384/800) | 504.36 s
+[Task  4/ 6]  Current/Best:   78.79/ 699.19 GFLOPS | Progress: (480/800) | 583.85 s
+[Task  4/ 6]  Current/Best:   98.13/ 699.19 GFLOPS | Progress: (576/800) | 659.29 s
+[Task  4/ 6]  Current/Best:   55.32/ 699.40 GFLOPS | Progress: (672/800) | 733.02 s
+[Task  4/ 6]  Current/Best:   46.27/ 699.40 GFLOPS | Progress: (768/800) | 792.27 s
+[Task  4/ 6]  Current/Best:  605.26/ 699.40 GFLOPS | Progress: (800/800) | 827.53 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:  165.88/ 298.26 GFLOPS | Progress: (96/800) | 112.88 s
+[Task  5/ 6]  Current/Best:   23.92/ 298.26 GFLOPS | Progress: (192/800) | 161.72 s
+[Task  5/ 6]  Current/Best:   52.83/ 298.26 GFLOPS | Progress: (288/800) | 227.53 s
+[Task  5/ 6]  Current/Best:   54.91/ 298.26 GFLOPS | Progress: (384/800) | 280.26 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:   50.09/ 274.55 GFLOPS | Progress: (96/800) | 170.99 s
+[Task  6/ 6]  Current/Best:   33.85/ 392.64 GFLOPS | Progress: (192/800) | 282.05 s
+[Task  6/ 6]  Current/Best:   40.29/ 487.56 GFLOPS | Progress: (288/800) | 381.81 s
+[Task  6/ 6]  Current/Best:  172.58/ 487.56 GFLOPS | Progress: (384/800) | 464.83 s
+[Task  6/ 6]  Current/Best:   50.87/ 495.69 GFLOPS | Progress: (480/800) | 529.03 s
+[Task  6/ 6]  Current/Best:   30.50/ 495.69 GFLOPS | Progress: (576/800) | 601.67 s
+[Task  6/ 6]  Current/Best:   32.99/ 495.69 GFLOPS | Progress: (672/800) | 655.71 s
+[Task  6/ 6]  Current/Best:  167.18/ 495.69 GFLOPS | Progress: (768/800) | 710.05 s
+[Task  6/ 6]  Current/Best:   52.88/ 495.69 GFLOPS | Progress: (800/800) | 743.06 sExported library with batch size 32768
+optimized: {'mean': 1.2131525622680783, 'median': 1.3453758787363768, 'std': 0.45533537834021226}
+unoptimized: {'mean': 9.718329021707177, 'median': 9.73891899921, 'std': 0.09683858843942843}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 65536 
+###############################################################
+
+{'mean': 18.474596412852407, 'median': 18.46413086168468, 'std': 0.02917999925660138}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   53.41/ 163.16 GFLOPS | Progress: (96/800) | 189.65 s
+[Task  1/ 6]  Current/Best:   31.73/ 163.16 GFLOPS | Progress: (192/800) | 235.76 s
+[Task  1/ 6]  Current/Best:   37.40/ 163.16 GFLOPS | Progress: (204/800) | 259.11 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  2/ 6]  Current/Best:   25.88/ 359.59 GFLOPS | Progress: (96/800) | 166.23 s
+[Task  2/ 6]  Current/Best:  131.83/ 359.59 GFLOPS | Progress: (192/800) | 260.33 s
+[Task  2/ 6]  Current/Best:   22.23/ 382.12 GFLOPS | Progress: (288/800) | 329.85 s
+[Task  2/ 6]  Current/Best:    4.99/ 384.48 GFLOPS | Progress: (384/800) | 399.18 s
+[Task  2/ 6]  Current/Best:   15.67/ 384.48 GFLOPS | Progress: (480/800) | 450.85 s
+[Task  2/ 6]  Current/Best:   24.69/ 384.48 GFLOPS | Progress: (576/800) | 503.03 s
+[Task  2/ 6]  Current/Best:   12.50/ 384.48 GFLOPS | Progress: (672/800) | 553.09 s
+[Task  2/ 6]  Current/Best:   17.83/ 384.48 GFLOPS | Progress: (768/800) | 604.24 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   26.95/ 323.14 GFLOPS | Progress: (96/800) | 113.66 s
+[Task  3/ 6]  Current/Best:   17.51/ 323.14 GFLOPS | Progress: (192/800) | 164.69 s
+[Task  3/ 6]  Current/Best:   33.49/ 323.14 GFLOPS | Progress: (288/800) | 251.34 s
+[Task  3/ 6]  Current/Best:   20.88/ 323.14 GFLOPS | Progress: (384/800) | 303.52 s
+[Task  3/ 6]  Current/Best:   21.07/ 323.14 GFLOPS | Progress: (480/800) | 366.12 s
+[Task  3/ 6]  Current/Best:   22.18/ 323.14 GFLOPS | Progress: (576/800) | 449.06 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  4/ 6]  Current/Best:  541.39/ 541.39 GFLOPS | Progress: (96/800) | 182.09 s
+[Task  4/ 6]  Current/Best:   62.89/ 541.39 GFLOPS | Progress: (192/800) | 333.91 s
+[Task  4/ 6]  Current/Best:   21.91/ 698.65 GFLOPS | Progress: (288/800) | 452.16 s
+[Task  4/ 6]  Current/Best:   20.98/ 698.65 GFLOPS | Progress: (384/800) | 558.28 s
+[Task  4/ 6]  Current/Best:   53.89/ 698.65 GFLOPS | Progress: (480/800) | 656.30 s
+[Task  4/ 6]  Current/Best:   28.77/ 731.12 GFLOPS | Progress: (576/800) | 739.74 s
+[Task  4/ 6]  Current/Best:   29.97/ 731.12 GFLOPS | Progress: (672/800) | 820.39 s
+[Task  4/ 6]  Current/Best:   19.05/ 731.12 GFLOPS | Progress: (768/800) | 894.17 s
+[Task  4/ 6]  Current/Best:   56.99/ 731.12 GFLOPS | Progress: (800/800) | 935.76 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   18.70/ 321.78 GFLOPS | Progress: (96/800) | 116.11 s
+[Task  5/ 6]  Current/Best:   18.63/ 322.97 GFLOPS | Progress: (192/800) | 169.32 s
+[Task  5/ 6]  Current/Best:   16.15/ 322.97 GFLOPS | Progress: (288/800) | 242.69 s
+[Task  5/ 6]  Current/Best:  136.85/ 322.97 GFLOPS | Progress: (384/800) | 296.06 s
+[Task  5/ 6]  Current/Best:    0.00/ 322.97 GFLOPS | Progress: (408/800) | 315.37 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  6/ 6]  Current/Best:   73.65/ 466.71 GFLOPS | Progress: (96/800) | 187.48 s Done.
+
+[Task  6/ 6]  Current/Best:   20.44/ 467.32 GFLOPS | Progress: (192/800) | 320.51 s
+[Task  6/ 6]  Current/Best:   13.63/ 513.83 GFLOPS | Progress: (288/800) | 439.55 s
+[Task  6/ 6]  Current/Best:   14.79/ 513.83 GFLOPS | Progress: (384/800) | 523.28 s
+[Task  6/ 6]  Current/Best:  136.07/ 543.90 GFLOPS | Progress: (480/800) | 604.21 s
+[Task  6/ 6]  Current/Best:   16.79/ 543.90 GFLOPS | Progress: (576/800) | 680.09 s
+[Task  6/ 6]  Current/Best:   11.05/ 558.05 GFLOPS | Progress: (672/800) | 743.41 s
+[Task  6/ 6]  Current/Best:   23.89/ 558.05 GFLOPS | Progress: (768/800) | 815.44 s
+[Task  6/ 6]  Current/Best:   28.64/ 558.05 GFLOPS | Progress: (800/800) | 849.67 sExported library with batch size 65536
+optimized: {'mean': 1.3392914878204465, 'median': 1.332757342606783, 'std': 0.020601502872273896}
+unoptimized: {'mean': 18.474596412852407, 'median': 18.46413086168468, 'std': 0.02917999925660138}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 131072 
+###############################################################
+
+{'mean': 36.61219642497599, 'median': 36.57587158959359, 'std': 0.07836860427091255}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   60.48/ 133.94 GFLOPS | Progress: (96/800) | 193.01 s
+[Task  1/ 6]  Current/Best:   20.08/ 341.89 GFLOPS | Progress: (192/800) | 246.08 s
+[Task  1/ 6]  Current/Best:   24.86/ 341.89 GFLOPS | Progress: (216/800) | 277.38 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  2/ 6]  Current/Best:   30.55/ 158.68 GFLOPS | Progress: (96/800) | 161.30 s
+[Task  2/ 6]  Current/Best:   14.46/ 231.72 GFLOPS | Progress: (192/800) | 275.05 s
+[Task  2/ 6]  Current/Best:   10.54/ 360.82 GFLOPS | Progress: (288/800) | 344.41 s
+[Task  2/ 6]  Current/Best:   45.80/ 360.82 GFLOPS | Progress: (384/800) | 416.42 s
+[Task  2/ 6]  Current/Best:   33.06/ 368.98 GFLOPS | Progress: (480/800) | 477.05 s
+[Task  2/ 6]  Current/Best:    4.84/ 368.98 GFLOPS | Progress: (576/800) | 538.97 s
+[Task  2/ 6]  Current/Best:    6.36/ 368.98 GFLOPS | Progress: (672/800) | 591.56 s
+[Task  2/ 6]  Current/Best:   39.59/ 368.98 GFLOPS | Progress: (768/800) | 650.91 s
+[Task  2/ 6]  Current/Best:  135.85/ 368.98 GFLOPS | Progress: (800/800) | 677.57 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:   46.01/ 298.18 GFLOPS | Progress: (96/800) | 111.83 s
+[Task  3/ 6]  Current/Best:   68.15/ 298.18 GFLOPS | Progress: (192/800) | 175.88 s
+[Task  3/ 6]  Current/Best:   58.77/ 298.18 GFLOPS | Progress: (288/800) | 266.95 s
+[Task  3/ 6]  Current/Best:   28.65/ 298.18 GFLOPS | Progress: (384/800) | 324.35 s
+[Task  3/ 6]  Current/Best:   73.72/ 298.18 GFLOPS | Progress: (480/800) | 376.61 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  4/ 6]  Current/Best:   58.02/ 832.75 GFLOPS | Progress: (96/800) | 181.47 s
+[Task  4/ 6]  Current/Best:  104.44/ 889.40 GFLOPS | Progress: (192/800) | 355.96 s
+[Task  4/ 6]  Current/Best:   61.54/ 889.40 GFLOPS | Progress: (288/800) | 489.16 s
+[Task  4/ 6]  Current/Best:   53.96/ 889.40 GFLOPS | Progress: (384/800) | 584.27 s
+[Task  4/ 6]  Current/Best:   36.28/ 889.40 GFLOPS | Progress: (480/800) | 671.68 s
+[Task  4/ 6]  Current/Best:   27.31/ 889.40 GFLOPS | Progress: (576/800) | 755.80 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   25.23/ 240.67 GFLOPS | Progress: (96/800) | 104.74 s
+[Task  5/ 6]  Current/Best:   93.38/ 366.05 GFLOPS | Progress: (192/800) | 164.13 s
+[Task  5/ 6]  Current/Best:   81.37/ 366.05 GFLOPS | Progress: (288/800) | 241.38 s
+[Task  5/ 6]  Current/Best:   30.79/ 366.05 GFLOPS | Progress: (384/800) | 289.47 s
+[Task  5/ 6]  Current/Best:   19.77/ 366.05 GFLOPS | Progress: (432/800) | 332.27 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:   44.23/ 668.10 GFLOPS | Progress: (96/800) | 160.87 s
+[Task  6/ 6]  Current/Best:  168.14/ 668.10 GFLOPS | Progress: (192/800) | 281.66 s
+[Task  6/ 6]  Current/Best:   29.88/ 668.10 GFLOPS | Progress: (288/800) | 385.49 s
+[Task  6/ 6]  Current/Best:   12.13/ 668.10 GFLOPS | Progress: (384/800) | 474.61 s
+[Task  6/ 6]  Current/Best:   33.97/ 668.10 GFLOPS | Progress: (480/800) | 555.96 s
+[Task  6/ 6]  Current/Best:   34.03/ 668.10 GFLOPS | Progress: (576/800) | 623.06 sExported library with batch size 131072
+optimized: {'mean': 2.6913983607664704, 'median': 2.683167648501694, 'std': 0.03687755948929169}
+unoptimized: {'mean': 36.61219642497599, 'median': 36.57587158959359, 'std': 0.07836860427091255}
+ Done.
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 262144 
+###############################################################
+
+{'mean': 74.7220000717789, 'median': 74.96262495405972, 'std': 1.2254569830012552}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   46.54/ 139.95 GFLOPS | Progress: (96/800) | 165.95 s
+[Task  1/ 6]  Current/Best:   21.31/ 149.57 GFLOPS | Progress: (192/800) | 233.56 s
+[Task  1/ 6]  Current/Best:   61.68/ 149.57 GFLOPS | Progress: (228/800) | 257.48 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  2/ 6]  Current/Best:   30.07/ 182.09 GFLOPS | Progress: (96/800) | 155.05 s Done.
+
+[Task  2/ 6]  Current/Best:   44.19/ 229.33 GFLOPS | Progress: (192/800) | 255.61 s
+[Task  2/ 6]  Current/Best:   59.07/ 278.71 GFLOPS | Progress: (288/800) | 342.35 s
+[Task  2/ 6]  Current/Best:   39.75/ 284.24 GFLOPS | Progress: (384/800) | 423.76 s
+[Task  2/ 6]  Current/Best:   20.79/ 284.24 GFLOPS | Progress: (480/800) | 496.67 s
+[Task  2/ 6]  Current/Best:   14.97/ 284.24 GFLOPS | Progress: (576/800) | 555.76 s
+[Task  2/ 6]  Current/Best:   21.02/ 284.24 GFLOPS | Progress: (672/800) | 620.92 s
+[Task  2/ 6]  Current/Best:   84.27/ 285.45 GFLOPS | Progress: (768/800) | 680.34 s
+[Task  2/ 6]  Current/Best:  269.87/ 285.45 GFLOPS | Progress: (800/800) | 716.67 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:  133.11/ 299.29 GFLOPS | Progress: (96/800) | 114.44 s
+[Task  3/ 6]  Current/Best:  149.86/ 331.95 GFLOPS | Progress: (192/800) | 195.31 s
+[Task  3/ 6]  Current/Best:  206.29/ 331.95 GFLOPS | Progress: (288/800) | 288.74 s
+[Task  3/ 6]  Current/Best:   86.72/ 331.95 GFLOPS | Progress: (384/800) | 351.70 s
+[Task  3/ 6]  Current/Best:   85.97/ 331.95 GFLOPS | Progress: (480/800) | 417.41 s
+[Task  3/ 6]  Current/Best:   83.42/ 331.95 GFLOPS | Progress: (576/800) | 505.10 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+ Done.
+
+[Task  4/ 6]  Current/Best:  348.52/ 782.01 GFLOPS | Progress: (96/800) | 192.79 s
+[Task  4/ 6]  Current/Best:  144.56/ 782.01 GFLOPS | Progress: (192/800) | 335.06 s
+[Task  4/ 6]  Current/Best:   20.39/ 782.01 GFLOPS | Progress: (288/800) | 467.32 s
+[Task  4/ 6]  Current/Best:  216.29/ 782.01 GFLOPS | Progress: (384/800) | 587.73 s
+[Task  4/ 6]  Current/Best:   35.09/ 782.01 GFLOPS | Progress: (480/800) | 712.93 s
+[Task  4/ 6]  Current/Best:  233.12/ 782.01 GFLOPS | Progress: (576/800) | 812.86 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   75.60/ 244.09 GFLOPS | Progress: (96/800) | 114.02 s
+[Task  5/ 6]  Current/Best:   55.78/ 388.88 GFLOPS | Progress: (192/800) | 190.61 s
+[Task  5/ 6]  Current/Best:   55.03/ 388.88 GFLOPS | Progress: (288/800) | 265.49 s
+[Task  5/ 6]  Current/Best:   66.11/ 388.88 GFLOPS | Progress: (384/800) | 320.41 s
+[Task  5/ 6]  Current/Best:   38.93/ 388.88 GFLOPS | Progress: (456/800) | 367.66 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:   86.09/ 585.89 GFLOPS | Progress: (96/800) | 195.04 s
+[Task  6/ 6]  Current/Best:   65.55/ 633.52 GFLOPS | Progress: (192/800) | 355.94 s
+[Task  6/ 6]  Current/Best:   47.69/ 633.52 GFLOPS | Progress: (288/800) | 473.96 s
+[Task  6/ 6]  Current/Best:   38.42/ 633.52 GFLOPS | Progress: (384/800) | 580.24 s
+[Task  6/ 6]  Current/Best:   72.96/ 633.52 GFLOPS | Progress: (480/800) | 681.24 s
+[Task  6/ 6]  Current/Best:   15.98/ 633.52 GFLOPS | Progress: (576/800) | 766.32 s Done.
+Exported library with batch size 262144
+optimized: {'mean': 8.971309042535722, 'median': 8.957218937575817, 'std': 0.17324165088215276}
+unoptimized: {'mean': 74.7220000717789, 'median': 74.96262495405972, 'std': 1.2254569830012552}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 524288 
+###############################################################
+
+{'mean': 148.47658688668162, 'median': 148.53594596497715, 'std': 0.3123785179028613}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   41.28/ 180.70 GFLOPS | Progress: (96/800) | 182.14 s
+[Task  1/ 6]  Current/Best:   77.98/ 180.70 GFLOPS | Progress: (192/800) | 251.77 s
+[Task  1/ 6]  Current/Best:   36.45/ 180.70 GFLOPS | Progress: (240/800) | 288.18 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:   60.31/ 159.50 GFLOPS | Progress: (96/800) | 183.86 s
+[Task  2/ 6]  Current/Best:    9.83/ 172.55 GFLOPS | Progress: (192/800) | 307.70 s
+[Task  2/ 6]  Current/Best:   44.86/ 174.64 GFLOPS | Progress: (288/800) | 418.95 s
+[Task  2/ 6]  Current/Best:   11.33/ 174.64 GFLOPS | Progress: (384/800) | 513.26 s
+[Task  2/ 6]  Current/Best:   26.71/ 174.64 GFLOPS | Progress: (480/800) | 597.75 s
+[Task  2/ 6]  Current/Best:   34.14/ 174.64 GFLOPS | Progress: (576/800) | 663.55 s
+[Task  2/ 6]  Current/Best:   18.58/ 179.52 GFLOPS | Progress: (672/800) | 736.68 s
+[Task  2/ 6]  Current/Best:    6.21/ 184.52 GFLOPS | Progress: (768/800) | 815.48 s
+[Task  2/ 6]  Current/Best:  142.41/ 184.52 GFLOPS | Progress: (800/800) | 853.57 s
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:  244.33/ 320.31 GFLOPS | Progress: (96/800) | 125.02 s
+[Task  3/ 6]  Current/Best:   57.57/ 337.74 GFLOPS | Progress: (192/800) | 220.02 s
+[Task  3/ 6]  Current/Best:  127.37/ 337.74 GFLOPS | Progress: (288/800) | 325.69 s
+[Task  3/ 6]  Current/Best:   47.62/ 337.74 GFLOPS | Progress: (384/800) | 402.58 s
+[Task  3/ 6]  Current/Best:   43.65/ 337.74 GFLOPS | Progress: (480/800) | 480.99 s Done.
+
+[Task  3/ 6]  Current/Best:   97.64/ 337.74 GFLOPS | Progress: (576/800) | 576.33 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:   78.58/ 450.68 GFLOPS | Progress: (96/800) | 189.66 s
+[Task  4/ 6]  Current/Best:    9.65/ 497.17 GFLOPS | Progress: (192/800) | 384.48 s
+[Task  4/ 6]  Current/Best:   43.15/ 504.20 GFLOPS | Progress: (288/800) | 557.01 s
+[Task  4/ 6]  Current/Best:   48.13/ 512.55 GFLOPS | Progress: (384/800) | 668.40 s
+[Task  4/ 6]  Current/Best:  139.02/ 516.23 GFLOPS | Progress: (480/800) | 799.55 s
+[Task  4/ 6]  Current/Best:   50.12/ 516.23 GFLOPS | Progress: (576/800) | 931.59 s
+[Task  4/ 6]  Current/Best:   94.49/ 516.23 GFLOPS | Progress: (672/800) | 1058.98 s
+[Task  4/ 6]  Current/Best:  108.36/ 516.23 GFLOPS | Progress: (768/800) | 1182.61 s
+[Task  4/ 6]  Current/Best:  341.58/ 516.23 GFLOPS | Progress: (800/800) | 1238.61 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:  116.90/ 279.31 GFLOPS | Progress: (96/800) | 123.43 s
+[Task  5/ 6]  Current/Best:  107.73/ 325.05 GFLOPS | Progress: (192/800) | 215.91 s
+[Task  5/ 6]  Current/Best:   80.18/ 325.05 GFLOPS | Progress: (288/800) | 296.09 s
+[Task  5/ 6]  Current/Best:   76.18/ 325.05 GFLOPS | Progress: (384/800) | 361.29 s
+[Task  5/ 6]  Current/Best:   42.53/ 325.05 GFLOPS | Progress: (480/800) | 433.66 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:  137.61/ 443.54 GFLOPS | Progress: (96/800) | 189.58 s
+[Task  6/ 6]  Current/Best:    4.13/ 443.54 GFLOPS | Progress: (192/800) | 322.57 s
+[Task  6/ 6]  Current/Best:   62.80/ 443.54 GFLOPS | Progress: (288/800) | 435.73 s
+[Task  6/ 6]  Current/Best:   42.56/ 443.54 GFLOPS | Progress: (384/800) | 546.64 s
+[Task  6/ 6]  Current/Best:   36.25/ 443.54 GFLOPS | Progress: (480/800) | 648.66 s
+[Task  6/ 6]  Current/Best:  130.00/ 443.54 GFLOPS | Progress: (576/800) | 760.61 s Done.
+Exported library with batch size 524288
+optimized: {'mean': 20.624188529327512, 'median': 20.58781359810382, 'std': 0.12381152916134618}
+unoptimized: {'mean': 148.47658688668162, 'median': 148.53594596497715, 'std': 0.3123785179028613}
+
+###############################################################
+                AUTOTUNING FOR BATCH SIZE 1048576 
+###############################################################
+
+{'mean': 295.1660778140649, 'median': 296.154310554266, 'std': 3.3183750871900743}
+Autotuning...
+
+[Task  1/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  1/ 6]  Current/Best:   47.77/  85.79 GFLOPS | Progress: (96/800) | 197.48 s
+[Task  1/ 6]  Current/Best:   68.83/  86.78 GFLOPS | Progress: (192/800) | 273.92 s
+[Task  1/ 6]  Current/Best:   14.88/  86.78 GFLOPS | Progress: (252/800) | 324.57 s
+[Task  2/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  2/ 6]  Current/Best:   65.92/  69.38 GFLOPS | Progress: (96/800) | 200.08 s
+[Task  2/ 6]  Current/Best:    5.01/  69.38 GFLOPS | Progress: (192/800) | 346.19 s
+[Task  2/ 6]  Current/Best:    7.37/  70.97 GFLOPS | Progress: (288/800) | 473.19 s
+[Task  2/ 6]  Current/Best:    6.88/  70.97 GFLOPS | Progress: (384/800) | 582.29 s
+[Task  2/ 6]  Current/Best:   12.01/  70.97 GFLOPS | Progress: (480/800) | 671.46 s
+[Task  2/ 6]  Current/Best:    5.66/  71.34 GFLOPS | Progress: (576/800) | 768.44 s
+[Task  2/ 6]  Current/Best:   51.67/  71.34 GFLOPS | Progress: (672/800) | 869.41 s
+[Task  2/ 6]  Current/Best:    6.89/  71.34 GFLOPS | Progress: (768/800) | 958.25 s
+[Task  2/ 6]  Current/Best:   27.67/  71.34 GFLOPS | Progress: (800/800) | 998.63 s Done.
+
+[Task  3/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  3/ 6]  Current/Best:  287.17/ 287.17 GFLOPS | Progress: (96/800) | 142.73 s
+[Task  3/ 6]  Current/Best:  114.07/ 327.75 GFLOPS | Progress: (192/800) | 270.03 s
+[Task  3/ 6]  Current/Best:   51.12/ 327.75 GFLOPS | Progress: (288/800) | 417.28 s
+[Task  3/ 6]  Current/Best:   46.44/ 327.75 GFLOPS | Progress: (384/800) | 513.72 s
+[Task  3/ 6]  Current/Best:   50.43/ 327.75 GFLOPS | Progress: (480/800) | 613.28 s
+[Task  3/ 6]  Current/Best:   45.75/ 327.75 GFLOPS | Progress: (576/800) | 713.26 s
+[Task  4/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  4/ 6]  Current/Best:   71.02/ 383.58 GFLOPS | Progress: (96/800) | 238.51 s
+[Task  4/ 6]  Current/Best:  214.96/ 392.73 GFLOPS | Progress: (192/800) | 475.62 s
+[Task  4/ 6]  Current/Best:   40.21/ 396.75 GFLOPS | Progress: (288/800) | 665.04 s
+[Task  4/ 6]  Current/Best:  172.93/ 396.75 GFLOPS | Progress: (384/800) | 841.11 s
+[Task  4/ 6]  Current/Best:   43.96/ 396.75 GFLOPS | Progress: (480/800) | 1026.27 s
+[Task  4/ 6]  Current/Best:   67.75/ 396.75 GFLOPS | Progress: (576/800) | 1200.37 s
+[Task  4/ 6]  Current/Best:   39.41/ 396.75 GFLOPS | Progress: (672/800) | 1376.82 s Done.
+
+[Task  5/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s
+[Task  5/ 6]  Current/Best:   48.15/ 249.61 GFLOPS | Progress: (96/800) | 139.51 s
+[Task  5/ 6]  Current/Best:   63.54/ 270.50 GFLOPS | Progress: (192/800) | 259.09 s
+[Task  5/ 6]  Current/Best:   94.47/ 270.50 GFLOPS | Progress: (288/800) | 373.61 s
+[Task  5/ 6]  Current/Best:   57.86/ 270.50 GFLOPS | Progress: (384/800) | 456.69 s
+[Task  5/ 6]  Current/Best:   73.67/ 270.50 GFLOPS | Progress: (480/800) | 536.40 s
+[Task  5/ 6]  Current/Best:   38.18/ 270.50 GFLOPS | Progress: (504/800) | 569.24 s
+[Task  6/ 6]  Current/Best:    0.00/   0.00 GFLOPS | Progress: (0/800) | 0.00 s Done.
+
+[Task  6/ 6]  Current/Best:  186.62/ 287.42 GFLOPS | Progress: (96/800) | 231.74 s
+[Task  6/ 6]  Current/Best:  136.56/ 288.73 GFLOPS | Progress: (192/800) | 402.78 s
+[Task  6/ 6]  Current/Best:   56.72/ 291.27 GFLOPS | Progress: (288/800) | 570.71 s
+[Task  6/ 6]  Current/Best:  183.24/ 293.93 GFLOPS | Progress: (384/800) | 735.67 s
+[Task  6/ 6]  Current/Best:  126.82/ 293.93 GFLOPS | Progress: (480/800) | 872.93 s
+[Task  6/ 6]  Current/Best:  154.79/ 295.11 GFLOPS | Progress: (576/800) | 1030.82 s
+[Task  6/ 6]  Current/Best:   19.58/ 295.16 GFLOPS | Progress: (672/800) | 1171.58 s
+[Task  6/ 6]  Current/Best:  114.47/ 295.16 GFLOPS | Progress: (768/800) | 1301.29 s
+[Task  6/ 6]  Current/Best:  292.88/ 295.16 GFLOPS | Progress: (800/800) | 1358.85 s Done.
+Exported library with batch size 1048576
+optimized: {'mean': 34.32203354779631, 'median': 34.37154779676348, 'std': 0.18502392814470434}
+unoptimized: {'mean': 295.1660778140649, 'median': 296.154310554266, 'std': 3.3183750871900743}
