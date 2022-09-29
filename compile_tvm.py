@@ -172,7 +172,6 @@ for bs in batch_sizes :
                 print(f"Exported library with batch size {bs}")
 
 
-
                 dev = tvm.device(str(target), 0)
                 module = graph_executor.GraphModule(lib["default"](dev))
 
