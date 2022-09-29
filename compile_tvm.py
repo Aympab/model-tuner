@@ -190,6 +190,7 @@ for bs in batch_sizes :
                 print("unoptimized: %s" % (unoptimized))
                 print(f"Average speedup : {unoptimized['mean']/optimized['mean']}")
     
-    except:
+    except Exception as err :
         print(f"ERROR WHEN TRYING WITH BATCH SIZE {bs}", file=sys.stderr)
+        print(f"{type(err)} : {err}", file=sys.stderr)
         pass
